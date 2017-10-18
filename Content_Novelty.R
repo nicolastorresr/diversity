@@ -138,9 +138,9 @@ Content_Novelty <- function(topics, recommendations, rated, verbose = TRUE, alph
   }
   
   a_TOT <- a_NDCG * (length(unique(uniq_items_u))/n_users)
-  utility <- abg_NDCG * a_TOT
-  Averages <- list(a_NDCG, ab_NDCG, ag_NDCG, abg_NDCG, a_TOT, utility)
-  names(Averages) = c("a-NDCG","ab-NDCG","ag-NDCG","abg-NDCG","Tot-Div","Utility") 
-  if (verbose) cat("a-NDCG:",a_NDCG,"ab-NDCG:",ab_NDCG,"ag-NDCG:",ag_NDCG,"abg-NDCG:",abg_NDCG,"Tot-Div:",a_TOT,"Utility:",utility)
+  abg_TOT <- abg_NDCG * a_TOT
+  Averages <- list(a_NDCG, ab_NDCG, ag_NDCG, abg_NDCG, a_TOT, abg_TOT)
+  names(Averages) = c("a-NDCG","ab-NDCG","ag-NDCG","abg-NDCG","Tot-Div","abg-Tot-Div") 
+  if (verbose) cat("a-NDCG:",a_NDCG,"ab-NDCG:",ab_NDCG,"ag-NDCG:",ag_NDCG,"abg-NDCG:",abg_NDCG,"Tot-Div:",a_TOT,"abg-Tot-Div:",abg_TOT)
   return(Averages)
 }

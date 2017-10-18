@@ -4,56 +4,34 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
           function(x, data, rank=FALSE, byUser=FALSE, goodRating=NA, ...) {
             
             if(rank){
-              #Coverage <- coverage(x, data, rank)
-              #drop(cbind(Coverage))
-              ## ADD: Normalized Discounted Cumulated Gain (NDCG)
-              #NDCG <- NDCG(x, data, rank)  
-              ## ADD: alpha Normalized Discounted Cumulated Gain (aNDCG)
-              #l <- aNDCG(x, data, rank)
-              ## ADD: Coverage, Diversity, Novelty, Serendipity, Utility
-              #l <- abNDCG(x, data, rank)
-              #print(rank)
-              
-              #top_NN : List de n_test_users con los N items recomendados (puede ser menor a N)
+              # top_NN : List of n_test_users with top-N recommended items (could be smaller than N)
               top_NN <- getTopNLists(x, n = rank, minRating = 0)
               
               real_mat <- as(data, "matrix")
-              #predicted_mat <<- as(x, "matrix")
               
-              #En real_mat para cada usuario se debe recuperar las peliculas que vio
+              # In real_mat for each user we must to retrieve all viewed items
               views <- list()
               
               for (pe in 1:nrow(real_mat)){
                 views[[pe]] <- names(which(!is.na(real_mat[pe,])))
               }
               
+              # top_NN@items : IDs of N-Best items for each user
+              # top_NN@ratings : ratings of N-Best items for each user
               
-              # top_NN@items[[1]] : las ID's de los N mejores items del usuario 1
-              # top_NN@ratings[[1]] : los ratings de los N mejores items del usuario 1
-              
-              recomendaciones = matrix(NA,nrow = length(top_NN@items),ncol = rank)
+              reco = matrix(NA,nrow = length(top_NN@items),ncol = rank)
               
               for (i in 1:length(top_NN@items)) {
-                #recomendaciones[i,] = top_NN@items[[i]]
-                recomendaciones[i,] = colnames(real_mat)[top_NN@items[[i]]]
-                #top_recommended[reco,] <- topics[which(rownames(topics) == recommendations[user,reco]),]
+                reco[i,] = colnames(real_mat)[top_NN@items[[i]]]
               }
-             
-              #stop("alto.")
-              #rec <- recomendaciones
-              if (!file.exists("MT.dat")) stop("File topics does not exist.")
-              topics <- read.table("MT.dat")
               
-              l <- utility(topics, recomendaciones, views, verbose = FALSE)
+              # Nuggets Matrix is hard-coded !
+              if (!file.exists("Nuggets_ML100K.dat")) stop("File of nuggets does not exist.")
+              nuggets <- read.table("Nuggets_ML100K.dat")
               
-              #best_NN <<- bestN(top_NN, rank)
+              l <- Content_Novelty(nuggets, reco, views, verbose = FALSE)
               
-              #stop("stop")
-              
-              drop(cbind(a_NDCG = l[[1]], ab_NDCG = l[[2]], ag_NDCG = l[[3]], abg_NDCG = l[[4]], a_TOT = l[[5]], Utility = l[[6]]))
-              #drop(cbind(Coverage=l[[1]],NDCG,aDCG=l[[2]],anDCG=l[[3]],abDCG=l[[4]],abnDCG=l[[5]]))
-              #drop(cbind(Coverage=l[[1]],NDCG,Diversity=l[[2]],Novelty=l[[3]],Serendipity=l[[4]],Utility=l[[5]]))
-              #drop(cbind(NDCG,aDCG=l[[1]],anDCG=l[[2]]))
+              drop(cbind(a_NDCG = l[[1]], ab_NDCG = l[[2]], ag_NDCG = l[[3]], abg_NDCG = l[[4]], TOT = l[[5]], abg_TOT = l[[6]]))
               
             }else{
               
