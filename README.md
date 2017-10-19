@@ -16,7 +16,6 @@ data("MovieLense")
 ```
 Train a user-based collaborative filtering recommender
 ```R
-# Train
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
 
