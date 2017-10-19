@@ -28,3 +28,5 @@ avg(r)
       a_NDCG  ab_NDCG  ag_NDCG  abg_NDCG   TOT_DIV abg_TOT_DIV
 10 0.8905016 0.616119 0.724511 0.4497598 0.1370402  0.06163856
 ```
+### References
+* recommenderlab [reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf)
