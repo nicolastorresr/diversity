@@ -31,7 +31,7 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
               
               l <- Content_Novelty(nuggets, reco, views, verbose = FALSE)
               
-              drop(cbind(a_NDCG = l[[1]], ab_NDCG = l[[2]], ag_NDCG = l[[3]], abg_NDCG = l[[4]], TOT = l[[5]], abg_TOT = l[[6]]))
+              drop(cbind(a_NDCG = l[[1]], ab_NDCG = l[[2]], ag_NDCG = l[[3]], abg_NDCG = l[[4]], TOT_DIV = l[[5]], abg_TOT_DIV = l[[6]]))
               
             }else{
               
