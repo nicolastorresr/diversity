@@ -20,7 +20,7 @@ Train a user-based collaborative filtering recommender
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
 
-Evaluate recommender with the Content Novelty Measures
+Evaluate the recommender with the Content Novelty Measures
 ```R
 r <- evaluate(e, method='UBCF', type='ratingMatrix', n=10, param=list(method='cosine', nn=50))
 
