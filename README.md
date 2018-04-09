@@ -21,7 +21,7 @@ Train a user-based collaborative filtering recommender using a 5-fold CV
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
 
-Evaluate the recommender with the Content Novelty Measures
+Evaluate the recommender with the Content Novelty Measures using nuggets
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "Novelty", n = 10, param = list(method = "cosine", nn = 50))
 ```
