@@ -39,6 +39,8 @@ A normal paragraph ending with ``::`` will flow and be word-wrapped::
 |	 3  Content Novelty Top - 10 : 62.07039 0.8782153 0.614272 0.7430954 0.4599745 0.1379396 0.06344869 [0.007sec/1.239sec] 
 |	 4  Content Novelty Top - 10 : 61.54092 0.8674907 0.615574 0.7381999 0.4582225 0.1407969 0.06451631 [0.006sec/1.236sec] 
 |	 5  Content Novelty Top - 10 : 60.8042 0.862061 0.615142 0.7488091 0.4646916 0.1173486 0.05453092 [0.006sec/1.316sec] 
+
+
 ```R
 > avg(r)
       a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TOT_DIV abg_TOT_DIV
