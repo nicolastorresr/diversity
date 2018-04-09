@@ -23,7 +23,7 @@ e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, giv
 
 Evaluate the recommender with the Content Novelty Measures
 ```R
-> r <- evaluate(e, method = "UBCF", nMatrix="../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype="Novelty", n = 10, param = list(method = "cosine", nn = 50))
+> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "Novelty", n = 10, param = list(method = "cosine", nn = 50))
 ```
 Results for each fold
 
