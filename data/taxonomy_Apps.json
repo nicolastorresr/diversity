@@ -1,0 +1,40 @@
+{
+	"Productivity": {},
+	"News & Magazines": {
+		"news&magazines": {},
+	},
+	"Entertainment": {},
+	"Travel": {},
+	"Cooking": {},
+	"Novelty": {},
+	"Music": {},
+	"Health & Fitness": {
+		"health&fitness": {},
+		"sports": {},
+	},
+	"Finance": {},
+	"Photography": {},
+	"Utilities": {
+		"webbrowsers": {},
+	},
+	"Books & Comics": {
+		"books&comics": {},
+	},
+	"Kids": {},
+	"Lifestyle": {},
+	"Games": {},
+	"Shopping": {},
+	"Navigation": {
+		"cityinfo": {},
+		"realestate": {},
+	},
+	"Reference": {},
+	"Ringtones": {},
+	"Communication": {
+		"socialnetworking": {},
+		"podcasts": {},
+	},
+	"Themes": {},
+	"Weather": {},
+	"Education": {},
+}

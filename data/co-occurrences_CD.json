@@ -1,0 +1,66 @@
+{
+	"co-occurrences": {
+		"Blues": {
+			"Blues": 0.453119513052, "ElectricBlues": 0.143977525459, "ContemporaryBlues": 0.106715049358, "AcousticBlues": 0.0671504935815, "RegionalBlues": 0.0620781146358, "TraditionalBlues": 0.0368722931055, "JumpBlues": 0.0332045729447, "Cajun&Zydeco": 0.0284833586952, "PianoBlues": 0.0168559054196, "VocalBlues": 0.0106129774864, "DeltaBlues": 0.0084669710094, "ChicagoBlues": 0.00573569003863, "NewOrleansBlues": 0.00550158024113, "TexasBlues": 0.00460415935074, "SlideGuitar": 0.00374575675992, "HarmonicaBlues": 0.00304342736744, "EastCoastBlues": 0.00300440906785, "WestCoastBlues": 0.00218502477662, "MemphisBlues": 0.00202895157829, "NewYorkBlues": 0.00113153068789, "ModernBlues": 0.000741347692068, "St.LouisBlues": 0.000390182995825, "DetroitBlues": 0.000351164696243, 
+		},
+		"Christian": {
+			"Pop&Contemporary": 0.535628249017, "Christian": 0.243375174338, "Country&Bluegrass": 0.0664384430075, "Praise&Worship": 0.041904399645, "Accompaniment": 0.0361354127045, "Rap&Hip-Hop": 0.0190820337264, "HardRock&Metal": 0.016546215291, "SouthernGospel": 0.0138202104729, "Instrumental": 0.0107138328896, "Rock&Alternative": 0.0100164828198, "Childrens": 0.0063395460885, 
+		},
+		"Christmas": {
+			"Holiday&Wedding": 1.0, 
+		},
+		"Classical": {
+			"Classical": 0.316777617572, "ChamberMusic": 0.210315877739, "Forms&Genres": 0.117219376016, "Symphonies": 0.102217995521, "Concertos": 0.0586148009531, "Ballets&Dances": 0.0494012741459, "Ballets": 0.0252170445133, "Theatrical": 0.0130380096328, "Incidental&ProgramMusic": 0.0130380096328, "Sacred&Religious": 0.0112484788989, "Sonatas": 0.0079864200182, "Dances": 0.00726038183473, "TonePoems": 0.00645253653199, "Suites": 0.00638095530264, "BaroqueDanceSuites": 0.00602304915585, "Polkas": 0.00472436113753, "Sonatinas": 0.00470390935771, "Overtures": 0.00372222392654, "Serenades&Divertimentos": 0.00293483040362, "Waltzes": 0.00272008671555, "Fantasies": 0.00263827959628, "ShortForms": 0.00242353590821, "ConcertoGrossi": 0.00222924399996, "Ballads": 0.00199404853207, "CharacterPieces": 0.00166682005502, "Variations": 0.00146230225685, "Requiems": 0.00142139869722, "Elegies&Tombeau": 0.00142139869722, "Preludes": 0.00138049513759, "IncidentalMusic": 0.00128846212842, "Marches": 0.000991911321083, "Quartets": 0.000971459541267, "Etudes": 0.000787393522921, "Tangos": 0.000705586403657, "Improvisation": 0.000685134623841, "Mazurkas": 0.000674908733933, "Trios": 0.000644231064208, "Polonaises": 0.000644231064208, "Fugues": 0.000623779284392, "Ecossaises": 0.000541972165128, "Pavanes": 0.000521520385312, "Nocturnes": 0.000490842715587, "Gigue": 0.000439713266047, "Allemandes": 0.000388583816507, "Scherzo": 0.000327228477058, "Quintets": 0.00031700258715, "Concertinos": 0.00031700258715, "Passacaglias": 0.000306776697242, "Sarabande": 0.000286324917426, "Rondos": 0.000276099027518, "Minuets": 0.000204517798161, "Canons": 0.000173840128437, "Elegies": 0.000132936568805, "Inventions": 0.000122710678897, "Toccatas": 0.000112484788989, "Courantes": 0.000112484788989, "Canzones": 9.20330091726e-05, "Septets": 7.15812293565e-05, "Sextets": 4.09035596323e-05, "Grounds": 3.06776697242e-05, "Voluntaries": 2.04517798161e-05, "Impromptus": 2.04517798161e-05, 
+		},
+		"Country": {
+			"Country": 0.222775502606, "ClassicCountry": 0.191036857781, "Bluegrass": 0.182287788533, "TodaysCountry": 0.16074087863, "Americana": 0.0798585256888, "NashvilleSound": 0.052773641102, "Neotraditional": 0.0475614296351, "Cowboy": 0.0225707371556, "OutlawCountry": 0.016055472822, "BakersfieldSound": 0.0105174981385, "RoadhouseCountry": 0.00470029784066, "Old-TimeCountry": 0.00423492181683, "WesternSwing": 0.00307148175726, "Instrumental": 0.00181496649293, 
+		},
+		"Electronic": {
+			"Progressive": 1.0, 
+		},
+		"Folk": {
+			"Folk": 0.364387414308, "ContemporaryFolk": 0.16722329642, "British&CelticFolk": 0.163766332689, "TraditionalFolk": 0.126149879885, "IrishFolk": 0.0659752739204, "BritishFolk": 0.0474600105467, "Jewish&Yiddish": 0.0267182281596, "CelticFolk": 0.0206831897814, "ScottishFolk": 0.0176363742896, 
+		},
+		"Hardcore": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Jazz": {
+			"Jazz": 0.346092329265, "Bebop": 0.210709668938, "AvantGarde&FreeJazz": 0.0711859950483, "SwingJazz": 0.0646786880217, "JazzFusion": 0.0470629477882, "LatinJazz": 0.0435573278412, "SmoothJazz": 0.0412129445017, "ClassicBigBand": 0.0364584474486, "VocalJazz": 0.0333033894963, "CoolJazz": 0.0202887754431, "Dixieland": 0.0150522556473, "Soul-Jazz&Boogaloo": 0.0147893341513, "BrazilianJazz": 0.0142634911593, "TraditionalJazz&Ragtime": 0.0126859621831, "AcidJazz": 0.0056528121645, "NewOrleansJazz": 0.00409719331303, "EuropeanJazz": 0.00394382244035, "ModernPostbebop": 0.00363708069499, "ContemporaryBigBand": 0.00256348458623, "JiveJazz": 0.00251966433689, "OrchestralJazz": 0.00190618084617, "Ragtime": 0.00166516947481, "StridePiano": 0.000876404986744, "RetroSwing": 0.000876404986744, "JazzJamBands": 0.000569663241384, "Boogie-Woogie": 0.000306741745361, "VintageDanceBands": 4.38202493372e-05, 
+		},
+		"LatinMusic": {
+			"LatinPop": 0.53527165539, "LatinMusic": 0.209486166008, "Salsa": 0.056139880753, "LatinHip-Hop": 0.0386547866283, "Merengue": 0.0283379111677, "Flamenco": 0.0227105245528, "Bachata": 0.0151403497019, "Tango": 0.0117907148121, "Cumbia": 0.0113887586253, "Mariachi": 0.0107188316474, "Tejano": 0.010517853554, "Banda": 0.0099819119716, "Samba": 0.00877604341127, "LatinRock": 0.0082401018289, "Reggaeton": 0.00649829168621, "Ranchera": 0.00535941582368, "Grupero": 0.00375159107657, "LatinChildrens": 0.00261271521404, "Duranguense": 0.00120586856033, "LatinElectronica": 0.00100489046694, "Vallenato": 0.000937897769143, "LatinChristian": 0.000937897769143, "MexicanCumbia": 0.000468948884572, "TierraCaliente": 6.69926977959e-05, 
+		},
+		"Metal": {
+			"Metal": 0.480495848971, "PopMetal": 0.254918685318, "DeathMetal": 0.148072330263, "AlternativeMetal": 0.076651882179, "Thrash&SpeedMetal": 0.0284885704538, "BritishMetal": 0.0113726828159, 
+		},
+		"Musicals": {
+			"Broadway&Vocalists": 1.0, 
+		},
+		"NewAge": {
+			"Meditation": 0.546554704865, "NewAge": 0.285379105952, "Healing": 0.0445789083724, "Instrumental": 0.03963941714, "Relaxation": 0.0349469004693, "CelticNewAge": 0.0276611509015, "Nature&Environment": 0.0212398122993, 
+		},
+		"Oldies": {
+			"DooWop": 0.554666666667, "GirlGroups": 0.176666666667, "Bubblegum": 0.138, "TraditionalPop": 0.076, "BaroquePop": 0.0546666666667, 
+		},
+		"Poetry": {
+			"Comedy&SpokenWord": 1.0, 
+		},
+		"Pop": {
+			"Pop": 0.774978484773, "EasyListening": 0.0426695538714, "VocalPop": 0.0409760972766, "AdultContemporary": 0.0320368673829, "DancePop": 0.0157685794398, "EuroPop": 0.0150467782682, "AdultAlternative": 0.0118264345798, "Singer-Songwriters": 0.0116876266622, "DooWop": 0.0115488187446, "FrenchPop": 0.00893922989367, "Tributes": 0.00713472696483, "SoftRock": 0.00680158796258, "TeenPop": 0.00485827711613, "GirlGroups": 0.0036784098165, "KoreanPop": 0.00366452902474, "Bubblegum": 0.00287332389439, "ItalianPop": 0.00223480747342, "TraditionalPop": 0.00158241026068, "BaroquePop": 0.00113822492435, "SwedishPop": 0.000555231670414, 
+		},
+		"Reggae": {
+			"Reggae": 0.691927512356, "Dub": 0.140032948929, "DanceHall": 0.113673805601, "JamaicanSka": 0.0313014827018, "Rocksteady": 0.0230642504119, 
+		},
+		"Rock": {
+			"Rock": 0.71857676937, "Progressive": 0.0778651540544, "ProgressiveRock": 0.0758025009669, "HardRock": 0.0277169008637, "Oldies&Retro": 0.0239783421426, "FolkRock": 0.0154698981565, "BluesRock": 0.0154698981565, "Rockabilly": 0.0112156761635, "CountryRock": 0.00850844398608, "RockGuitarists": 0.00554338017275, "RootsRock": 0.00464096944695, "JamBands": 0.00386747453913, "SurfRock": 0.00348072708521, "Singer-Songwriters": 0.00232048472348, "ProgressiveMetal": 0.00167590563362, "PowerPop": 0.00128915817971, "RapRock": 0.000902410725796, "FunkRock": 0.000902410725796, "GuitarGods": 0.000644579089854, "Shred": 0.000128915817971, 
+		},
+		"Soul": {
+			"R&B": 0.981642512077, "PhillySoul": 0.00579710144928, "SouthernSoul": 0.00386473429952, "Northern": 0.00386473429952, "MemphisSoul": 0.00289855072464, "Blue-EyedSoul": 0.00193236714976, 
+		},
+		"Soundtracks": {
+			"Soundtracks": 0.683826683827, "MovieSoundtracks": 0.159373659374, "MovieScores": 0.134706134706, "TelevisionSoundtracks": 0.0220935220935, 
+		},
+		"WorldMusic": {
+			"WorldMusic": 0.257227943914, "FarEast&Asia": 0.11539893287, "Europe": 0.096786201762, "Japan": 0.0842536294826, "ContinentalEurope": 0.0765603672912, "South&CentralAmerica": 0.0413202630599, "MiddleEast": 0.0341233403648, "Africa": 0.0271745874178, "Brazil": 0.0264300781735, "France": 0.0258096538032, "PacificIslands": 0.018488646234, "Hawaii": 0.0174959672416, "Italy": 0.0169996277454, "India&Pakistan": 0.0168755428713, "Caribbean&Cuba": 0.0165032882492, "Israel": 0.0119121479092, "BritishIsles": 0.011539893287, "NorthAmerica": 0.00632832857675, "Cuba": 0.00632832857675, "Ireland": 0.00620424370269, "Arabic": 0.00558381933242, "Andes": 0.00533564958432, "Australia&NewZealand": 0.00521156471026, "Britain": 0.00471522521405, "EasternEurope": 0.00434297059188, "NativeAmerican": 0.00397071596972, "Congo": 0.00335029159945, "Turkey": 0.00297803697729, "Greece": 0.00297803697729, "Iran": 0.00248169748108, "Russia": 0.00235761260702, "Calypso": 0.00198535798486, "China": 0.00186127311081, "SouthAfrica": 0.00173718823675, "Charanga": 0.00173718823675, "Algeria": 0.00173718823675, "Senegal&Gambia": 0.0016131033627, "Scandinavia": 0.00148901848865, "PuertoRico": 0.00148901848865, "Germany": 0.00136493361459, "Bahamas": 0.00136493361459, "Nicaragua": 0.00124084874054, "Haiti": 0.00124084874054, "Eskimo&Inuit": 0.00124084874054, "Spain": 0.00111676386648, "Poland": 0.00111676386648, "Peru": 0.00111676386648, "Nigeria": 0.00111676386648, "Bolero": 0.00111676386648, "Egypt": 0.000992678992431, "Tibet": 0.000868594118377, "Portugal": 0.000868594118377, "Mali": 0.000868594118377, "Lebanon": 0.000868594118377, "Argentina": 0.000868594118377, "Mambo": 0.000744509244323, "Appalachian": 0.000744509244323, "Tahiti": 0.000620424370269, "Zimbabwe": 0.000496339496215, "Morocco": 0.000496339496215, "Islamic": 0.000496339496215, "Gypsy": 0.000496339496215, "Venezuela": 0.000372254622162, "Sweden": 0.000372254622162, "Soukous": 0.000372254622162, "Norway": 0.000372254622162, "Netherlands": 0.000372254622162, "IvoryCoast": 0.000372254622162, "Ghana": 0.000372254622162, "CostaRica": 0.000372254622162, "Chile": 0.000372254622162, "Bolivia": 0.000372254622162, "Zouk": 0.000248169748108, "Trinidad": 0.000248169748108, "Tanzania": 0.000248169748108, "Salsa": 0.000248169748108, "Indonesia": 0.000248169748108, "Hungary": 0.000248169748108, "ElSalvador": 0.000248169748108, "Ecuador": 0.000248169748108, "Colombia": 0.000248169748108, "Uruguay": 0.000124084874054, "Ukraine": 0.000124084874054, "Switzerland": 0.000124084874054, "Soca": 0.000124084874054, "Scotland": 0.000124084874054, "Rhumba": 0.000124084874054, "PolynesianMusic": 0.000124084874054, "Guinea": 0.000124084874054, "Finland": 0.000124084874054, "CapeVerde": 0.000124084874054, "Cameroon": 0.000124084874054, "Bulgaria": 0.000124084874054, "Austria": 0.000124084874054, "Armenia": 0.000124084874054, "Afro-Cuban": 0.000124084874054, 
+		},
+}

@@ -1,0 +1,91 @@
+{
+	"Poetry": {},
+	"Comedy": {
+		"comedicmusic": {},
+		"comedy&spokenword": {},
+	},
+	"Christmas": {
+		"holiday": {},
+	},
+	"Reggae": {
+		"ska": {},
+	},
+	"Christian": {
+		"religious": {},
+		"gospel": {},
+	},
+	"Oldies": {
+		"retro": {},
+	},
+	"SpecialInterest": {},
+	"Jazz": {},
+	"Hardcore": {
+		"metalcore": {},
+		"emo": {},
+		"hardcore&punk": {},
+	},
+	"Karaoke": {},
+	"CDs&Vinyl": {},
+	"Country": {},
+	"Metal": {
+		"goth": {},
+		"heavymetal": {},
+		"groovemetal": {},
+		"goth&industrial": {},
+		"aggressive": {},
+	},
+	"DigitalMusic": {},
+	"Soul": {
+		"r&b": {},
+	},
+	"LatinMusic": {},
+	"Soundtracks": {},
+	"Rock": {
+		"dreampop": {},
+		"britpop": {},
+		"southernrock": {},
+		"chamberpop": {},
+		"indie": {},
+		"lo-fi": {},
+		"indie&lo-fi": {},
+		"punk": {},
+		"americanpunk": {},
+		"alternativerock": {},
+		"punkrevival": {},
+		"album-orientedrock(aor)": {},
+		"psychedelicrock": {},
+		"britishpunk": {},
+		"glam": {},
+		"classicrock": {},
+		"indierock": {},
+		"arenarock": {},
+	},
+	"Hip-Hop": {
+		"rap&hip-hop": {},
+	},
+	"WorldMusic": {
+		"world": {},
+	},
+	"Classical": {},
+	"Pop": {
+		"traditionalvocalpop": {},
+		"ambientpop": {},
+	},
+	"NewAge": {},
+	"Musicals": {
+		"broadway": {},
+		"broadway&vocalists": {},
+	},
+	"Blues": {},
+	"Electronic": {
+		"dance&electronic": {},
+		"electronicpop": {},
+	},
+	"Children": {
+		"childrensmusic": {},
+		"lullabies": {},
+	},
+	"Folk": {
+		"urbanfolk": {},
+	},
+}

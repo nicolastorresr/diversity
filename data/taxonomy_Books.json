@@ -1,0 +1,158 @@
+{
+	"Gay & Lesbian": {
+		"gay&lesbian": {},
+	},
+	"Travel": {},
+	"Self-Help": {},
+	"Poetry": {},
+	"Engineering & Transportation": {
+		"automotive": {},
+		"engineering&transportation": {},
+	},
+	"Romance": {
+		"love": {},
+	},
+	"Pets & Animals": {
+		"horses": {},
+		"animals": {},
+		"pets": {},
+		"pet": {},
+		"cats": {},
+		"animal": {},
+		"dogs": {},
+	},
+	"Cookbooks": {
+		"food": {},
+	},
+	"Health": {
+		"health&babycare": {},
+		"diet&health": {},
+		"fitness&dieting": {},
+	},
+	"Education & Teaching": {
+		"education&teaching": {},
+	},
+	"Religion & Spirituality": {
+		"religion&spirituality": {},
+		"christian": {},
+		"religion": {},
+		"bibles": {},
+		"christianbooks&bibles": {},
+		"spirituality": {},
+	},
+	"Computers & Technology": {
+		"computers&technology": {},
+		"programming": {},
+	},
+	"War": {},
+	"Comics & GraphicNovels": {
+		"comics": {},
+		"graphicnovels": {},
+		"humor&comics": {},
+		"comics&graphicnovels": {},
+	},
+	"Nature": {},
+	"Horror": {},
+	"Science-Fiction & Fantasy": {
+		"sciencefiction&fantasy": {},
+	},
+	"Humor & Entertainment": {
+		"humor&comics": {},
+		"humor": {},
+		"humor&entertainment": {},
+	},
+	"Teen & Young Adult": {
+		"teen&youngadult": {},
+	},
+	"Erotica": {},
+	"Law": {},
+	"Sports & Outdoors": {
+		"sports&outdoors": {},
+		"sports": {},
+	},
+	"Mystery": {
+		"thriller&suspense": {},
+		"suspense": {},
+		"thriller": {},
+	},
+	"Biographies & Memoirs": {
+		"biographies": {},
+		"biographies&memoirs": {},
+		"memoirs": {},
+	},
+	"Arts & Photography": {
+		"arts": {},
+		"music": {},
+		"arts&photography": {},
+	},
+	"Politics  & Social Sciences": {
+		"sociology": {},
+		"politics&socialsciences": {},
+	},
+	"Medical": {
+		"medicine": {},
+		"clinical": {},
+		"medicalbooks": {},
+		"medicine&healthsciences": {},
+		"nursing": {},
+	},
+	"Baby": {
+		"health&babycare": {},
+		"clothdiapers": {},
+		"diapering": {},
+		"babies": {},
+		"babyproducts": {},
+	},
+	"Home & Family": {
+		"garden&home": {},
+		"family": {},
+		"home": {},
+	},
+	"Crafts": {
+		"needlepoint": {},
+		"woodcrafts": {},
+		"sewing": {},
+		"needlework": {},
+		"sewingtools": {},
+		"origamipaper": {},
+		"paper&papercrafts": {},
+		"cross-stitch": {},
+		"beading&jewelry-making": {},
+		"crafts&sewing": {},
+		"craftsupplies": {},
+		"knitting&crochet": {},
+	},
+	"History": {
+		"historical": {},
+	},
+	"Childrens": {
+		"childrensbooks": {},
+		"cartoons": {},
+	},
+	"Action & Adventure": {
+		"action&adventure": {},
+	},
+	"Science & Math": {
+		"science&math": {},
+	},
+	"Parenting & Relationships": {
+		"parenting&relationships": {},
+	},
+	"Westerns": {},
+	"Business & Money": {
+		"business&money": {},
+		"business": {},
+		"finance": {},
+	},
+	"Calendar": {
+		"calendars": {},
+	},
+	"Reference": {
+		"study&teaching": {},
+		"words": {},
+		"language&grammar": {},
+	},
+	"Literature & Fiction": {
+		"literature&fiction": {},
+	},
+}

@@ -1,0 +1,72 @@
+{
+	"co-occurrences": {
+		"Books&Comics": {
+			"Books&Readers": 0.557400722022, "ChildrensBooks": 0.367509025271, "GraphicNovels": 0.0274368231047, "ComicStrips": 0.0259927797834, "Manga": 0.0216606498195, 
+		},
+		"Communication": {
+			"Communication": 1.0, 
+		},
+		"Cooking": {
+			"Cooking": 1.0, 
+		},
+		"Education": {
+			"Education": 1.0, 
+		},
+		"Entertainment": {
+			"Entertainment": 1.0, 
+		},
+		"Finance": {
+			"Finance": 1.0, 
+		},
+		"Games": {
+			"Games": 1.0, 
+		},
+		"Health&Fitness": {
+			"Health&Fitness": 1.0, 
+		},
+		"Kids": {
+			"Kids": 1.0, 
+		},
+		"Lifestyle": {
+			"Lifestyle": 1.0, 
+		},
+		"Music": {
+			"Radio": 0.237947122862, "Instruments": 0.213063763608, "Artists": 0.195956454121, "Music": 0.195438050804, "MusicPlayers": 0.130119232763, "Songbooks": 0.0274753758424, 
+		},
+		"Navigation": {
+			"Navigation": 1.0, 
+		},
+		"News&Magazines": {
+			"News": 0.460020242915, "Magazines": 0.384615384615, "Newspapers": 0.15536437247, 
+		},
+		"Novelty": {
+			"Novelty": 1.0, 
+		},
+		"Photography": {
+			"Photography": 1.0, 
+		},
+		"Productivity": {
+			"Productivity": 1.0, 
+		},
+		"Reference": {
+			"Reference": 1.0, 
+		},
+		"Ringtones": {
+			"Ringtones": 1.0, 
+		},
+		"Shopping": {
+			"Shopping": 1.0, 
+		},
+		"Themes": {
+			"Themes": 1.0, 
+		},
+		"Travel": {
+			"Travel": 1.0, 
+		},
+		"Utilities": {
+			"Utilities": 0.520581113801, "Alarms&Clocks": 0.209846650525, "Calculators": 0.12792574657, "BatterySavers": 0.0540758676352, "Notes": 0.0524616626312, "Calendars": 0.0351089588378, 
+		},
+		"Weather": {
+			"Weather": 1.0, 
+		},
+}

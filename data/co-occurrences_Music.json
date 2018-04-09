@@ -1,0 +1,645 @@
+{
+	"co-occurrences": {
+		"AcidJazz": {
+			"Jazz": 1.0, 
+		},
+		"AcousticBlues": {
+			"Blues": 1.0, 
+		},
+		"AdultAlternative": {
+			"Pop": 1.0, 
+		},
+		"AdultContemporary": {
+			"Pop": 1.0, 
+		},
+		"Album-OrientedRock(AOR)": {
+			"ClassicRock": 1.0, 
+		},
+		"AltIndustrial": {
+			"Industrial": 0.333333333333, "Goth&Industrial": 0.333333333333, "AlternativeRock": 0.333333333333, 
+		},
+		"AlternativeMetal": {
+			"Metal": 1.0, 
+		},
+		"AlternativeRock": {
+			"Indie&Lo-Fi": 0.293467165703, "IndieRock": 0.246682545083, "Hardcore&Punk": 0.103266417149, "NewWave&Post-Punk": 0.048656005444, "NewWave": 0.0472949982987, "AmericanAlternative": 0.0415107179313, "Punk": 0.0280707723716, "Emo": 0.0238176250425, "Goth&Industrial": 0.0188839741409, "Hardcore": 0.0178632187819, "BritishAlternative": 0.0168424634229, "Goth": 0.0151412044913, "ElectronicPop": 0.0139503232392, "DreamPop": 0.0129295678802, "ChamberPop": 0.0127594419871, "Britpop": 0.0115685607349, "Singer-Songwriters": 0.0108880571623, "PostHardcore": 0.00527390268799, "GaragePunk": 0.00476352500851, "AmbientPop": 0.00442327322218, "BritishPunk": 0.0039128955427, "Industrial": 0.0030622660769, "Punk-Pop": 0.00272201429058, "AmericanPunk": 0.00204151071793, "Ska": 0.00187138482477, "ProtoPunk": 0.00187138482477, "AltIndustrial": 0.00170125893161, "JanglePop": 0.00119088125213, "UrbanFolk": 0.000850629465805, "Krautrock": 0.000680503572644, "MathRock": 0.000510377679483, "PunkRevival": 0.000340251786322, "Lo-Fi": 0.000340251786322, "IndustrialDance": 0.000340251786322, "DigitalMusic": 0.000340251786322, "ThirdWaveSka": 0.000170125893161, 
+		},
+		"Ambient": {
+			"Dance&Electronic": 1.0, 
+		},
+		"AmbientPop": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"AmericanAlternative": {
+			"AlternativeRock": 1.0, 
+		},
+		"AmericanPunk": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Americana": {
+			"Country": 1.0, 
+		},
+		"ArenaRock": {
+			"ClassicRock": 1.0, 
+		},
+		"Arts": {
+			"Sewing": 0.4, "Crafts&Sewing": 0.4, "Trim&Embellishments": 0.2, 
+		},
+		"AvantGarde&FreeJazz": {
+			"Jazz": 1.0, 
+		},
+		"BabyProducts": {
+			"Walkers": 0.5, "Gear": 0.5, 
+		},
+		"Bachata": {
+			"LatinMusic": 1.0, 
+		},
+		"Ballets&Dances": {
+			"Classical": 0.5, "Polkas": 0.333333333333, "Tangos": 0.0833333333333, "Dances": 0.0833333333333, 
+		},
+		"BaroquePop": {
+			"Pop": 0.5, "Oldies": 0.5, 
+		},
+		"Bath&Body": {
+			"Cleansers": 0.333333333333, "BodyWashes": 0.333333333333, "Beauty": 0.333333333333, 
+		},
+		"Beauty": {
+			"Tools&Accessories": 0.125, "Makeup": 0.125, "Fragrance": 0.125, "Face": 0.125, "Cleansers": 0.125, "BodyWashes": 0.125, "Blush": 0.125, "Bath&Body": 0.125, 
+		},
+		"Bebop": {
+			"Jazz": 1.0, 
+		},
+		"BigBeat": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Bluegrass": {
+			"Country": 1.0, 
+		},
+		"Blues": {
+			"Blues": 0.646408839779, "ContemporaryBlues": 0.152486187845, "ElectricBlues": 0.0828729281768, "AcousticBlues": 0.0541436464088, "RegionalBlues": 0.017679558011, "DeltaBlues": 0.0121546961326, "VocalBlues": 0.0110497237569, "PianoBlues": 0.00773480662983, "TraditionalBlues": 0.00441988950276, "JumpBlues": 0.00441988950276, "NewOrleansBlues": 0.00220994475138, "WestCoastBlues": 0.00110497237569, "TexasBlues": 0.00110497237569, "SlideGuitar": 0.00110497237569, "EastCoastBlues": 0.00110497237569, 
+		},
+		"Blush": {
+			"Makeup": 0.333333333333, "Face": 0.333333333333, "Beauty": 0.333333333333, 
+		},
+		"BodyWashes": {
+			"Cleansers": 0.333333333333, "Beauty": 0.333333333333, "Bath&Body": 0.333333333333, 
+		},
+		"BrazilianJazz": {
+			"Jazz": 1.0, 
+		},
+		"British&CelticFolk": {
+			"Folk": 0.5, "BritishFolk": 0.225, "IrishFolk": 0.125, "CelticFolk": 0.125, "ScottishFolk": 0.025, 
+		},
+		"BritishAlternative": {
+			"AlternativeRock": 0.592814371257, "Britpop": 0.407185628743, 
+		},
+		"BritishFolk": {
+			"Folk": 0.5, "British&CelticFolk": 0.5, 
+		},
+		"BritishInvasion": {
+			"ClassicRock": 1.0, 
+		},
+		"BritishPunk": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Britpop": {
+			"BritishAlternative": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Broadway&Vocalists": {
+			"TraditionalVocalPop": 0.644444444444, "Musicals": 0.133333333333, "ClassicVocalists": 0.133333333333, "Cabaret": 0.0888888888889, 
+		},
+		"Bubblegum": {
+			"Pop": 0.5, "Oldies": 0.5, 
+		},
+		"Cabaret": {
+			"Broadway&Vocalists": 1.0, 
+		},
+		"CelticFolk": {
+			"Folk": 0.5, "British&CelticFolk": 0.5, 
+		},
+		"CelticNewAge": {
+			"NewAge": 1.0, 
+		},
+		"ChamberMusic": {
+			"Classical": 1.0, 
+		},
+		"ChamberPop": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"ChildrensMusic": {
+			"Stories": 0.333333333333, "Lullabies": 0.333333333333, "Disney": 0.333333333333, 
+		},
+		"Christian": {
+			"Country&Bluegrass": 0.414634146341, "Pop&Contemporary": 0.30487804878, "HardRock&Metal": 0.121951219512, "Christian": 0.109756097561, "Rap&Hip-Hop": 0.0365853658537, "Rock&Alternative": 0.0121951219512, 
+		},
+		"Christmas": {
+			"Holiday&Wedding": 1.0, 
+		},
+		"ClassicCountry": {
+			"Country": 0.904109589041, "NashvilleSound": 0.0821917808219, "Old-TimeCountry": 0.013698630137, 
+		},
+		"ClassicR&B": {
+			"R&B": 1.0, 
+		},
+		"ClassicRock": {
+			"Album-OrientedRock(AOR)": 0.666666666667, "SouthernRock": 0.133744855967, "PsychedelicRock": 0.0946502057613, "Glam": 0.0411522633745, "ArenaRock": 0.0411522633745, "BritishInvasion": 0.0205761316872, "DigitalMusic": 0.00205761316872, 
+		},
+		"ClassicVocalists": {
+			"Broadway&Vocalists": 1.0, 
+		},
+		"Classical": {
+			"Classical": 0.621621621622, "Ballets&Dances": 0.162162162162, "Polkas": 0.108108108108, "ChamberMusic": 0.0540540540541, "Tangos": 0.027027027027, "Dances": 0.027027027027, 
+		},
+		"Cleansers": {
+			"BodyWashes": 0.333333333333, "Beauty": 0.333333333333, "Bath&Body": 0.333333333333, 
+		},
+		"ComedicMusic": {
+			"Comedy&SpokenWord": 1.0, 
+		},
+		"Comedy&SpokenWord": {
+			"SpokenWord": 0.416666666667, "Poetry": 0.375, "CountryComedy": 0.0833333333333, "ComedicMusic": 0.0833333333333, "Interviews": 0.0416666666667, 
+		},
+		"ContemporaryBlues": {
+			"Blues": 1.0, 
+		},
+		"ContemporaryFolk": {
+			"Folk": 1.0, 
+		},
+		"CoolJazz": {
+			"Jazz": 1.0, 
+		},
+		"Country": {
+			"Bluegrass": 0.278538812785, "Americana": 0.166666666667, "ClassicCountry": 0.150684931507, "Country": 0.148401826484, "TodaysCountry": 0.130136986301, "Neotraditional": 0.041095890411, "OutlawCountry": 0.0296803652968, "Cowboy": 0.027397260274, "NashvilleSound": 0.013698630137, "WesternSwing": 0.00684931506849, "RoadhouseCountry": 0.00456621004566, "Old-TimeCountry": 0.00228310502283, 
+		},
+		"Country&Bluegrass": {
+			"Christian": 1.0, 
+		},
+		"CountryComedy": {
+			"Comedy&SpokenWord": 1.0, 
+		},
+		"CountryRock": {
+			"Rock": 1.0, 
+		},
+		"Cowboy": {
+			"Country": 1.0, 
+		},
+		"Crafts&Sewing": {
+			"Sewing": 0.4, "Arts": 0.4, "Trim&Embellishments": 0.2, 
+		},
+		"Cumbia": {
+			"LatinMusic": 1.0, 
+		},
+		"Dance&Electronic": {
+			"House": 0.339877300613, "Electronica": 0.247852760736, "Disco": 0.0920245398773, "Trance": 0.0687116564417, "Drum&Bass": 0.0613496932515, "Ambient": 0.0478527607362, "Trip-Hop": 0.038036809816, "Techno": 0.0368098159509, "BigBeat": 0.0294478527607, "WorldDance": 0.0208588957055, "DigitalMusic": 0.00613496932515, "Freestyle": 0.00490797546012, "IDM": 0.00245398773006, "Dubstep": 0.00245398773006, "Turntablists": 0.00122699386503, 
+		},
+		"DancePop": {
+			"Pop": 1.0, 
+		},
+		"Dances": {
+			"Classical": 0.5, "Ballets&Dances": 0.5, 
+		},
+		"DeathMetal": {
+			"Metal": 1.0, 
+		},
+		"DeltaBlues": {
+			"RegionalBlues": 0.5, "Blues": 0.5, 
+		},
+		"DigitalMusic": {
+			"Soul": 0.258064516129, "R&B": 0.258064516129, "Dance&Electronic": 0.161290322581, "House": 0.0967741935484, "Indie&Lo-Fi": 0.0645161290323, "AlternativeRock": 0.0645161290323, "Trip-Hop": 0.0322580645161, "Techno": 0.0322580645161, "ClassicRock": 0.0322580645161, 
+		},
+		"Disco": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Disney": {
+			"ChildrensMusic": 1.0, 
+		},
+		"Dixieland": {
+			"Jazz": 1.0, 
+		},
+		"DooWop": {
+			"Pop": 0.5, "Oldies": 0.5, 
+		},
+		"DreamPop": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Drum&Bass": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Dubstep": {
+			"Dance&Electronic": 1.0, 
+		},
+		"EastCoast": {
+			"Rap&Hip-Hop": 1.0, 
+		},
+		"EastCoastBlues": {
+			"RegionalBlues": 0.5, "Blues": 0.5, 
+		},
+		"EasyListening": {
+			"Pop": 1.0, 
+		},
+		"ElectricBlues": {
+			"Blues": 1.0, 
+		},
+		"ElectronicPop": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Electronica": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Emo": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"EuroPop": {
+			"Pop": 0.714285714286, "SwedishPop": 0.142857142857, "FrenchPop": 0.142857142857, 
+		},
+		"EuropeanJazz": {
+			"Jazz": 1.0, 
+		},
+		"ExperimentalRap": {
+			"Rap&Hip-Hop": 1.0, 
+		},
+		"Face": {
+			"Makeup": 0.333333333333, "Blush": 0.333333333333, "Beauty": 0.333333333333, 
+		},
+		"Folk": {
+			"Folk": 0.443835616438, "ContemporaryFolk": 0.394520547945, "British&CelticFolk": 0.0547945205479, "TraditionalFolk": 0.0520547945205, "BritishFolk": 0.0246575342466, "IrishFolk": 0.013698630137, "CelticFolk": 0.013698630137, "ScottishFolk": 0.0027397260274, 
+		},
+		"Fragrance": {
+			"Beauty": 1.0, 
+		},
+		"Freestyle": {
+			"Dance&Electronic": 1.0, 
+		},
+		"FrenchPop": {
+			"Pop": 0.5, "EuroPop": 0.5, 
+		},
+		"Funk": {
+			"R&B": 1.0, 
+		},
+		"Gangsta&Hardcore": {
+			"Rap&Hip-Hop": 1.0, 
+		},
+		"GaragePunk": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Gear": {
+			"Walkers": 0.5, "BabyProducts": 0.5, 
+		},
+		"GirlGroups": {
+			"Pop": 0.5, "Oldies": 0.5, 
+		},
+		"Glam": {
+			"ClassicRock": 1.0, 
+		},
+		"Gospel": {
+			"Urban&Contemporary": 1.0, 
+		},
+		"Goth": {
+			"Goth&Industrial": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Goth&Industrial": {
+			"AlternativeRock": 0.482608695652, "Goth": 0.386956521739, "Industrial": 0.0782608695652, "AltIndustrial": 0.0434782608696, "IndustrialDance": 0.00869565217391, 
+		},
+		"HardRock": {
+			"Rock": 1.0, 
+		},
+		"HardRock&Metal": {
+			"Christian": 1.0, 
+		},
+		"Hardcore": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Hardcore&Punk": {
+			"AlternativeRock": 0.532456140351, "Punk": 0.144736842105, "Emo": 0.122807017544, "Hardcore": 0.0921052631579, "PostHardcore": 0.0271929824561, "GaragePunk": 0.0245614035088, "BritishPunk": 0.0201754385965, "Punk-Pop": 0.0140350877193, "AmericanPunk": 0.0105263157895, "ProtoPunk": 0.00964912280702, "PunkRevival": 0.00175438596491, 
+		},
+		"Holiday&Wedding": {
+			"Christmas": 0.75, "WeddingMusic": 0.125, "Kwanzaa": 0.125, 
+		},
+		"House": {
+			"Dance&Electronic": 0.989285714286, "DigitalMusic": 0.0107142857143, 
+		},
+		"IDM": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Indie&Lo-Fi": {
+			"AlternativeRock": 0.500725689405, "IndieRock": 0.420899854862, "ElectronicPop": 0.0238026124819, "DreamPop": 0.02206095791, "ChamberPop": 0.021770682148, "AmbientPop": 0.00754716981132, "JanglePop": 0.00203193033382, "Lo-Fi": 0.000580551523948, "DigitalMusic": 0.000580551523948, 
+		},
+		"IndieRock": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Industrial": {
+			"Goth&Industrial": 0.375, "AlternativeRock": 0.375, "AltIndustrial": 0.208333333333, "IndustrialDance": 0.0416666666667, 
+		},
+		"IndustrialDance": {
+			"Industrial": 0.333333333333, "Goth&Industrial": 0.333333333333, "AlternativeRock": 0.333333333333, 
+		},
+		"Interviews": {
+			"Comedy&SpokenWord": 1.0, 
+		},
+		"IrishFolk": {
+			"Folk": 0.5, "British&CelticFolk": 0.5, 
+		},
+		"JamaicanSka": {
+			"Reggae": 1.0, 
+		},
+		"JanglePop": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Jazz": {
+			"Bebop": 0.39414114514, "LatinJazz": 0.135818908123, "Soul-Jazz&Boogaloo": 0.0785619174434, "AvantGarde&FreeJazz": 0.0719041278296, "BrazilianJazz": 0.0705725699068, "SmoothJazz": 0.0679094540613, "JazzFusion": 0.0559254327563, "Jazz": 0.0559254327563, "AcidJazz": 0.0279627163782, "CoolJazz": 0.0252996005326, "VocalJazz": 0.00532623169108, "ModernPostbebop": 0.00399467376831, "EuropeanJazz": 0.00266311584554, "SwingJazz": 0.00133155792277, "JazzJamBands": 0.00133155792277, "Dixieland": 0.00133155792277, 
+		},
+		"JazzFusion": {
+			"Jazz": 1.0, 
+		},
+		"JazzJamBands": {
+			"Jazz": 1.0, 
+		},
+		"JumpBlues": {
+			"Blues": 1.0, 
+		},
+		"Krautrock": {
+			"AlternativeRock": 1.0, 
+		},
+		"Kwanzaa": {
+			"Holiday&Wedding": 1.0, 
+		},
+		"LatinHip-Hop": {
+			"LatinMusic": 1.0, 
+		},
+		"LatinJazz": {
+			"Jazz": 1.0, 
+		},
+		"LatinMusic": {
+			"LatinPop": 0.529914529915, "LatinHip-Hop": 0.290598290598, "Samba": 0.0769230769231, "LatinRock": 0.034188034188, "Tango": 0.017094017094, "Salsa": 0.017094017094, "Bachata": 0.017094017094, "Merengue": 0.00854700854701, "Cumbia": 0.00854700854701, 
+		},
+		"LatinPop": {
+			"LatinMusic": 1.0, 
+		},
+		"LatinRock": {
+			"LatinMusic": 1.0, 
+		},
+		"Lo-Fi": {
+			"Indie&Lo-Fi": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Lullabies": {
+			"ChildrensMusic": 1.0, 
+		},
+		"Makeup": {
+			"Face": 0.333333333333, "Blush": 0.333333333333, "Beauty": 0.333333333333, 
+		},
+		"MathRock": {
+			"AlternativeRock": 1.0, 
+		},
+		"Meditation": {
+			"NewAge": 1.0, 
+		},
+		"Merengue": {
+			"LatinMusic": 1.0, 
+		},
+		"Metal": {
+			"Metal": 0.4, "PopMetal": 0.281818181818, "AlternativeMetal": 0.181818181818, "DeathMetal": 0.136363636364, 
+		},
+		"ModernPostbebop": {
+			"Jazz": 1.0, 
+		},
+		"Motown": {
+			"R&B": 1.0, 
+		},
+		"Musicals": {
+			"Broadway&Vocalists": 1.0, 
+		},
+		"NashvilleSound": {
+			"Country": 0.5, "ClassicCountry": 0.5, 
+		},
+		"Neotraditional": {
+			"Country": 1.0, 
+		},
+		"NewAge": {
+			"NewAge": 0.411764705882, "CelticNewAge": 0.294117647059, "Meditation": 0.235294117647, "Relaxation": 0.0588235294118, 
+		},
+		"NewJack": {
+			"R&B": 1.0, 
+		},
+		"NewOrleansBlues": {
+			"RegionalBlues": 0.5, "Blues": 0.5, 
+		},
+		"NewWave": {
+			"NewWave&Post-Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"NewWave&Post-Punk": {
+			"AlternativeRock": 0.502636203866, "NewWave": 0.488576449912, "UrbanFolk": 0.00878734622144, 
+		},
+		"Old-TimeCountry": {
+			"Country": 0.5, "ClassicCountry": 0.5, 
+		},
+		"Oldies": {
+			"Pop": 0.728395061728, "GirlGroups": 0.111111111111, "DooWop": 0.0740740740741, "BaroquePop": 0.037037037037, "TraditionalPop": 0.0246913580247, "Bubblegum": 0.0246913580247, 
+		},
+		"OutlawCountry": {
+			"Country": 1.0, 
+		},
+		"PianoBlues": {
+			"Blues": 1.0, 
+		},
+		"Poetry": {
+			"Comedy&SpokenWord": 1.0, 
+		},
+		"Polkas": {
+			"Classical": 0.5, "Ballets&Dances": 0.5, 
+		},
+		"Pop": {
+			"Pop": 0.793029871977, "AdultContemporary": 0.0547652916074, "Oldies": 0.0419630156472, "Singer-Songwriters": 0.0398293029872, "SoftRock": 0.0199146514936, "AdultAlternative": 0.0149359886202, "DancePop": 0.00711237553343, "GirlGroups": 0.00640113798009, "EasyListening": 0.00426742532006, "DooWop": 0.00426742532006, "EuroPop": 0.00355618776671, "VocalPop": 0.00284495021337, "BaroquePop": 0.00213371266003, "TraditionalPop": 0.00142247510669, "Bubblegum": 0.00142247510669, "TeenPop": 0.000711237553343, "SwedishPop": 0.000711237553343, "FrenchPop": 0.000711237553343, 
+		},
+		"Pop&Contemporary": {
+			"Christian": 1.0, 
+		},
+		"PopMetal": {
+			"Metal": 1.0, 
+		},
+		"PostHardcore": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Progressive": {
+			"Rock": 0.5, "ProgressiveRock": 0.5, 
+		},
+		"ProgressiveRock": {
+			"Rock": 0.5, "Progressive": 0.5, 
+		},
+		"ProtoPunk": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"PsychedelicRock": {
+			"ClassicRock": 1.0, 
+		},
+		"Punk": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"Punk-Pop": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"PunkRevival": {
+			"Hardcore&Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"QuietStorm": {
+			"R&B": 1.0, 
+		},
+		"R&B": {
+			"Soul": 0.377777777778, "Funk": 0.222222222222, "DigitalMusic": 0.177777777778, "Motown": 0.0666666666667, "ClassicR&B": 0.0666666666667, "QuietStorm": 0.0444444444444, "SouthernSoul": 0.0222222222222, "NewJack": 0.0222222222222, 
+		},
+		"Rap&Hip-Hop": {
+			"Gangsta&Hardcore": 0.764705882353, "EastCoast": 0.0882352941176, "Christian": 0.0882352941176, "WestCoast": 0.0294117647059, "ExperimentalRap": 0.0294117647059, 
+		},
+		"Reggae": {
+			"JamaicanSka": 1.0, 
+		},
+		"RegionalBlues": {
+			"Blues": 0.5, "DeltaBlues": 0.34375, "NewOrleansBlues": 0.0625, "WestCoastBlues": 0.03125, "TexasBlues": 0.03125, "EastCoastBlues": 0.03125, 
+		},
+		"Relaxation": {
+			"NewAge": 1.0, 
+		},
+		"RoadhouseCountry": {
+			"Country": 1.0, 
+		},
+		"Rock": {
+			"HardRock": 0.277777777778, "ProgressiveRock": 0.222222222222, "Progressive": 0.222222222222, "Rock": 0.166666666667, "Singer-Songwriters": 0.0555555555556, "CountryRock": 0.0555555555556, 
+		},
+		"Rock&Alternative": {
+			"Christian": 1.0, 
+		},
+		"Salsa": {
+			"LatinMusic": 1.0, 
+		},
+		"Samba": {
+			"LatinMusic": 1.0, 
+		},
+		"ScottishFolk": {
+			"Folk": 0.5, "British&CelticFolk": 0.5, 
+		},
+		"Sewing": {
+			"Crafts&Sewing": 0.4, "Arts": 0.4, "Trim&Embellishments": 0.2, 
+		},
+		"Singer-Songwriters": {
+			"AlternativeRock": 0.528925619835, "Pop": 0.462809917355, "Rock": 0.00826446280992, 
+		},
+		"Ska": {
+			"AlternativeRock": 0.916666666667, "ThirdWaveSka": 0.0833333333333, 
+		},
+		"SlideGuitar": {
+			"Blues": 1.0, 
+		},
+		"SmoothJazz": {
+			"Jazz": 1.0, 
+		},
+		"SoftRock": {
+			"Pop": 1.0, 
+		},
+		"Soul": {
+			"R&B": 0.653846153846, "DigitalMusic": 0.307692307692, "SouthernSoul": 0.0384615384615, 
+		},
+		"Soul-Jazz&Boogaloo": {
+			"Jazz": 1.0, 
+		},
+		"SouthernRock": {
+			"ClassicRock": 1.0, 
+		},
+		"SouthernSoul": {
+			"Soul": 0.5, "R&B": 0.5, 
+		},
+		"SpokenWord": {
+			"Comedy&SpokenWord": 1.0, 
+		},
+		"Stories": {
+			"ChildrensMusic": 1.0, 
+		},
+		"SwedishPop": {
+			"Pop": 0.5, "EuroPop": 0.5, 
+		},
+		"SwingJazz": {
+			"Jazz": 1.0, 
+		},
+		"Tango": {
+			"LatinMusic": 1.0, 
+		},
+		"Tangos": {
+			"Classical": 0.5, "Ballets&Dances": 0.5, 
+		},
+		"Techno": {
+			"Dance&Electronic": 0.967741935484, "DigitalMusic": 0.0322580645161, 
+		},
+		"TeenPop": {
+			"Pop": 1.0, 
+		},
+		"TexasBlues": {
+			"RegionalBlues": 0.5, "Blues": 0.5, 
+		},
+		"ThirdWaveSka": {
+			"Ska": 0.5, "AlternativeRock": 0.5, 
+		},
+		"TodaysCountry": {
+			"Country": 1.0, 
+		},
+		"Tools&Accessories": {
+			"Beauty": 1.0, 
+		},
+		"TraditionalBlues": {
+			"Blues": 1.0, 
+		},
+		"TraditionalFolk": {
+			"Folk": 1.0, 
+		},
+		"TraditionalPop": {
+			"Pop": 0.5, "Oldies": 0.5, 
+		},
+		"TraditionalVocalPop": {
+			"Broadway&Vocalists": 1.0, 
+		},
+		"Trance": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Trim&Embellishments": {
+			"Sewing": 0.333333333333, "Crafts&Sewing": 0.333333333333, "Arts": 0.333333333333, 
+		},
+		"Trip-Hop": {
+			"Dance&Electronic": 0.96875, "DigitalMusic": 0.03125, 
+		},
+		"Turntablists": {
+			"Dance&Electronic": 1.0, 
+		},
+		"Urban&Contemporary": {
+			"Gospel": 1.0, 
+		},
+		"UrbanFolk": {
+			"NewWave&Post-Punk": 0.5, "AlternativeRock": 0.5, 
+		},
+		"VocalBlues": {
+			"Blues": 1.0, 
+		},
+		"VocalJazz": {
+			"Jazz": 1.0, 
+		},
+		"VocalPop": {
+			"Pop": 1.0, 
+		},
+		"Walkers": {
+			"Gear": 0.5, "BabyProducts": 0.5, 
+		},
+		"WeddingMusic": {
+			"Holiday&Wedding": 1.0, 
+		},
+		"WestCoast": {
+			"Rap&Hip-Hop": 1.0, 
+		},
+		"WestCoastBlues": {
+			"RegionalBlues": 0.5, "Blues": 0.5, 
+		},
+		"WesternSwing": {
+			"Country": 1.0, 
+		},
+		"WorldDance": {
+			"Dance&Electronic": 1.0, 
+		},
+		"WorldMusic": {
+			"WorldMusic": 1.0, 
+		},
+}
