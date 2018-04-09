@@ -16,7 +16,7 @@ Load dataset [ML100K](https://grouplens.org/datasets/movielens/100k/)
 ```R
 data("MovieLense")
 ```
-Train a user-based collaborative filtering recommender using a 5-CV
+Train a user-based collaborative filtering recommender using a 5-fold CV
 ```R
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
