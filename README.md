@@ -37,7 +37,7 @@ Results for each fold
 Overall performance
 ```R
 > avg(r)
-      a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TOT_DIV abg_TOT_DIV
+      a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TOT_DIV  abg_TOTDIV
 10 61.57531 0.8667345 0.6146974 0.744387 0.4618586 0.1289305  0.05952857
 ```
 
