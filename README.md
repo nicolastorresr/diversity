@@ -30,3 +30,4 @@ avg(r)
 
 ### References
 * recommenderlab [reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf)
+* MovieLens 100K [Dataset](https://grouplens.org/datasets/movielens/100k/)
