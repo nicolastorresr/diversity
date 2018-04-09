@@ -23,6 +23,16 @@ Evaluate the recommender with the Content Novelty Measures
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix="../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype="Novelty", n = 10, param = list(method = "cosine", nn = 50))
 ```
+
+
+A normal paragraph ending with ``::`` will flow and be word-wrapped::
+
+    If the next paragraph is indented by four or more spaces, it will be monospaced text, without flow (or even wrapping in some non-print cases.)
+
+    You can have multiple paragraphs like this, as long as they
+    are all indented by the same amount.
+
+
 |UBCF run fold/sample [model time/prediction time]
 |	 1  Content Novelty Top - 10 : 61.37076 0.8601649 0.6124878 0.7453946 0.4627718 0.112587 0.0521021 [0.006sec/1.432sec] 
 |	 2  Content Novelty Top - 10 : 62.0903 0.8657405 0.6160112 0.746436 0.4636326 0.1359802 0.06304484 [0.006sec/1.402sec] 
