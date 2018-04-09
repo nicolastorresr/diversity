@@ -1,7 +1,6 @@
 # Content Novelty Measures
 
-The process for evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
-------------------------------------------------------------------------------------------------------
+#### The process for evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
 
 Load base package and dependences
 ```R
