@@ -1,7 +1,7 @@
 # Content Novelty Measures
 
 
-##### In order to be able to evaluate a recommender in different datasets, we are publishing all derived genre taxonomies, multiple genre annotations/tags per item, and co-ocurrences matrices for the following datasets:
+In order to be able to evaluate a recommender in different datasets, we are publishing all derived **genre taxonomies**, multiple **genre annotations/tags** per item, and **co-ocurrences matrices** for the following datasets:
 * [MovieLens 1M](https://grouplens.org/datasets/movielens/1m/)
 * [MovieTweetings](https://github.com/sidooms/MovieTweetings)
 * [Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
