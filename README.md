@@ -7,10 +7,10 @@
 * Book-Crossing
 * Last.fm 1K
 * [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/)
- * Books
- * CDs and Vinyl
- * Digital Music
- * Apps for Android
+  * Books
+  * CDs and Vinyl
+  * Digital Music
+  * Apps for Android
 
 #### The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
 
