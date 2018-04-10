@@ -2,10 +2,10 @@
 
 
 #### In order to be able to evaluate a recommender in different datasets, we are publishing all derived genre taxonomies, multiple genre annotations/tags per item, and co-ocurrences matrices for datasets:
-* MovieLens 1M
-* MovieTweetings
-* Book-Crossing
-* Last.fm 1K
+* [MovieLens 1M](https://grouplens.org/datasets/movielens/1m/)
+* [MovieTweetings](https://github.com/sidooms/MovieTweetings)
+* [Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
+* [Last.fm 1K](http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html)
 * [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/)
   * Books
   * CDs and Vinyl
