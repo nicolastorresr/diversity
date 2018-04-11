@@ -48,8 +48,10 @@ Results for each fold
 	 5  Content Novelty Top - 10 : 60.8042 0.862061 0.615142 0.7488091 0.4646916 0.1173486 0.05453092 [0.006sec/1.316sec] 
 
 Overall performance
-```
+```R
 > avg(r)
+```
+```
       a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TOT_DIV  abg_TOTDIV
 10 61.57531 0.8667345 0.6146974 0.744387 0.4618586 0.1289305  0.05952857
 ```
