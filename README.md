@@ -16,7 +16,7 @@ We are using [recommenderlab](https://cran.r-project.org/web/packages/recommende
 
 #### The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
 
-Load base package and dependences
+Load base package and dependences.
 ```R
 library('recommenderlab')
 
@@ -26,7 +26,7 @@ source('Content_Novelty.R')
 source('evaluate.R')
 ```
 
-Load dataset [ML100K](https://grouplens.org/datasets/movielens/100k/)
+Load ML100K dataset.
 ```R
 data("MovieLense")
 ```
