@@ -12,6 +12,8 @@ In order to be able to evaluate a recommender in different datasets, we are publ
   * Digital Music
   * Apps for Android
 
+We are using [recommenderlab](https://cran.r-project.org/web/packages/recommenderlab/index.html) for developing our proposed measures and testing it in Recommender Algorithms.
+
 #### The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
 
 Load base package and dependences
