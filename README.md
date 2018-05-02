@@ -1,16 +1,4 @@
-# Content Novelty Measures
-
-
-In order to be able to evaluate a recommender in different datasets, we are publishing all derived **genre taxonomies**, multiple **genre annotations/tags** per item, and **co-ocurrences matrices** for the following datasets:
-* [MovieLens100K](https://grouplens.org/datasets/movielens/100k/) and [MovieLens 1M](https://grouplens.org/datasets/movielens/1m/)
-* [MovieTweetings](https://github.com/sidooms/MovieTweetings)
-* [Book-Crossing](http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
-* [Last.fm 1K](http://www.dtic.upf.edu/~ocelma/MusicRecommendationDataset/lastfm-1K.html)
-* [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/)
-  * Books
-  * CDs and Vinyl
-  * Digital Music
-  * Apps for Android
+# Diversity in Recommender Systems
 
 We are using [recommenderlab](https://cran.r-project.org/web/packages/recommenderlab/index.html) for developing our proposed measures and testing it in Recommender Algorithms.
 
@@ -22,7 +10,8 @@ library('recommenderlab')
 
 source('AAA.R')
 source('calcPredictionAccuracy.R')
-source('Content_Novelty.R')
+source('alpha_Measures.R')
+source('BinomDiv.R')
 source('evaluate.R')
 ```
 
@@ -36,7 +25,7 @@ e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, giv
 ```
 Evaluates the recommender model given an evaluation scheme. 
 ```R
-> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "Novelty", n = 10, param = list(method = "cosine", nn = 50))
+> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
 Results for each fold
 
@@ -59,3 +48,4 @@ Overall performance
 ### References
 * recommenderlab [reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf)
 * grouplens [Datasets](https://grouplens.org/datasets/)
+* Vargas *et al.* (2004) [BinomDiv](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)
