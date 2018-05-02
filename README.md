@@ -28,7 +28,7 @@ Evaluate the recommender model given an evaluation scheme. Two approaches for di
 * `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG ([Clarke *et al*. 2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)). 
 * `subtype = "BinomDiv"` for Binomial Diversity ([Vargas *et al*. 2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)).
 
-* alpha-Measures:
+** alpha-Measures:
 
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
@@ -55,7 +55,7 @@ Overall performance:
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
 
-* Binomial Diversity
+** Binomial Diversity
 
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
