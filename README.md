@@ -42,7 +42,7 @@ Overall performance
 ```R
 > avg(r)
 ```
-| | a_DCG  |  a_nDCG |  ab_nDCG | ag_nDCG | abg_nDCG |  TotDiv | abg_TotDiv |
+| | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv |
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
 
