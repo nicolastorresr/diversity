@@ -1,4 +1,4 @@
-# Evaluating Diversity in Recommender Systems
+# Evaluating Diversity Measures in Recommender Systems
 
 All the diversity measures were developed in [RecommenderLab](https://cran.r-project.org/web/packages/recommenderlab/index.html), a R package library devoted to recommender systems.
 
