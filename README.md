@@ -32,11 +32,7 @@ Evaluate the recommender model given an evaluation scheme. Two approaches for di
 Results for each fold:
 
     UBCF run fold/sample [model time/prediction time]
-	 1  a-nDCG Measures (top-10): 61.3707 0.860164 0.612487 0.745394 0.4627718 0.112587 0.0521021 [0.006sec/1.432sec] 
-	 2  a-nDCG Measures (top-10): 62.0903 0.865740 0.616011 0.746436 0.4636326 0.135980 0.0630448 [0.006sec/1.402sec] 
-	 3  a-nDCG Measures (top-10): 62.0703 0.878215 0.614272 0.743095 0.4599745 0.137939 0.0634486 [0.007sec/1.239sec] 
-	 4  a-nDCG Measures (top-10): 61.5409 0.867490 0.615574 0.738199 0.4582225 0.140796 0.0645163 [0.006sec/1.236sec] 
-	 5  a-nDCG Measures (top-10): 60.8042 0.862061 0.615142 0.748809 0.4646916 0.117348 0.0545309 [0.006sec/1.316sec] 
+
 
 | | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv |
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
