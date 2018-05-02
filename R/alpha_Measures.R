@@ -150,7 +150,7 @@ alpha_Measures <- function(nuggets, R, reviews, verbose = TRUE, alpha = 0.5, bet
     else
       dnDCGs[user] <- 0
     
-    if (verbose) cat("user",user,"a-DCG:",aDCGs[user],"a-NDCG:",dnDCGs[user],"ab-NDCG:",nnDCGs[user],"ag-NDCG:",snDCGs[user],"abg-NDCG:",anDCGs[user],"\n")
+    if (verbose) cat("user",user,"a-DCG:",aDCGs[user],"a-nDCG:",dnDCGs[user],"ab-nDCG:",nnDCGs[user],"ag-nDCG:",snDCGs[user],"abg-nDCG:",anDCGs[user],"\n")
     
   }
   
@@ -170,7 +170,7 @@ alpha_Measures <- function(nuggets, R, reviews, verbose = TRUE, alpha = 0.5, bet
   TotDiv <- a_NDCG*(length(unique(uniq_items_u))/n_users)
   abg_TotDiv <- abg_NDCG*TotDiv
   res <- lapply(list(a_DCG,a_NDCG, ab_NDCG, ag_NDCG, abg_NDCG, TotDiv, abg_TotDiv),round,4)
-  names(res) = c("a-DCG","a-NDCG","ab-NDCG","ag-NDCG","abg-NDCG","a-TOT","Utility") 
-  if (verbose) cat("a-DCG:",a_DCG,"a-NDCG:",a_NDCG,"ab-NDCG:",ab_NDCG,"ag-NDCG:",ag_NDCG,"abg-NDCG:",abg_NDCG,"TotDiv:",TotDiv,"abg_TotDiv:",abg_TotDiv)
+  names(res) = c("a-DCG","a-nDCG","ab-nDCG","ag-nDCG","abg-nDCG","TotDiv","abg-TotDiv") 
+  if (verbose) cat("a-DCG:",a_DCG,"a-nDCG:",a_NDCG,"ab-nDCG:",ab_NDCG,"ag-nDCG:",ag_NDCG,"abg-nDCG:",abg_NDCG,"TotDiv:",TotDiv,"abg-TotDiv:",abg_TotDiv)
   return(res)
 }

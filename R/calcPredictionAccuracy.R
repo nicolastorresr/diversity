@@ -7,7 +7,7 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
               
               resNDCG <- NDCG(x,data,rank)
               
-              cat("",resNDCG,"")
+              cat("nDCG:",resNDCG,"")
               
               drop(cbind(resNDCG))
               
