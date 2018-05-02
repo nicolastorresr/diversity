@@ -19,7 +19,7 @@ Load *ML100K* dataset.
 ```R
 data("MovieLense")
 ```
-Create an `evaluationScheme` object from *MovieLense* data set using a 5-fold cross-validation.
+Create an `evaluationScheme` object from `MovieLense` data set using a 5-fold cross-validation.
 ```R
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
