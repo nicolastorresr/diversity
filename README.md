@@ -26,7 +26,7 @@ e <- evaluationScheme(  MovieLense, method = 'cross-validation', train = 0.8, k 
 ```
 Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: 
 * `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG ([Clarke *et al*. 2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)). 
-* `subtype = "BinomDiv"` for Binomial Diversity (Vargas *et al*. 2014).
+* `subtype = "BinomDiv"` for Binomial Diversity ([Vargas *et al*. 2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)).
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
                 subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
@@ -57,5 +57,6 @@ Overall performance:
 ### References
 * RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
 * GroupLens [datasets](https://grouplens.org/datasets/)
-* alpha-nDCG by Clarke *et al.* ([2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf))
-* BinomDiv by Vargas *et al.* ([2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
+* ([Novelty and Diversity in Information Retrieval Evaluation](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf))
+* ([Coverage, Redundancy and Size-Awareness
+in Genre Diversity for Recommender Systems](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
