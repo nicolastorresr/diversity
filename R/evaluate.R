@@ -64,30 +64,27 @@ setMethod("evaluate", signature(x = "evaluationScheme", method = "list"),
     pre <- predict(r, test_known, n=max(n), type=type)
   )
   
-  
-  #t="Novelty"
-
   if(is(pre, "topNList")) {
-
+    
     for(i in 1:length(n)) {
       NN <- n[i]
-
+      
       ## get best N
       topN <- bestN(pre, NN)
-
-      if(subtype=="Novelty"){
+      
+      if(subtype=="a-nDCG" | subtype=='BinomDiv'){
         r <-  calcPredictionAccuracy(topN, test_unknown, test_known, byUser=FALSE,
                                      given=scheme@given, goodRating=scheme@goodRating, t=subtype, method=method,rank=NN,nMatrix=nMatrix)
       } else {
         r <-  calcPredictionAccuracy(topN, test_unknown, byUser=FALSE, t=subtype,
                                      given=scheme@given, goodRating=scheme@goodRating)
       }
-
+      
       if(i==1) res <- rbind(r)
       else res <- rbind(res, r)
     }
     rownames(res) <- n
-
+    
   }else{
     
     if(type == "ratings"){
