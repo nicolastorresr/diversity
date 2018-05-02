@@ -2,7 +2,7 @@
 
 All the diversity measures were developed in [RecommenderLab](https://cran.r-project.org/web/packages/recommenderlab/index.html), a R package library devoted to recommender systems.
 
-### The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens-100K) is shown below:
+**The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens-100K) is shown below:**
 
 Load base package and dependences.
 ```R
