@@ -19,11 +19,11 @@ Load ML100K dataset.
 ```R
 data("MovieLense")
 ```
-Creates an `evaluationScheme` object from *MovieLense* data set using a 5-fold cross-validation.
+Create an `evaluationScheme` object from *MovieLense* data set using a 5-fold cross-validation.
 ```R
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
-Evaluates the recommender model given an evaluation scheme. 
+Evaluate the recommender model given an evaluation scheme. 
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
@@ -48,4 +48,4 @@ Overall performance
 ### References
 * recommenderlab [reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf)
 * grouplens [Datasets](https://grouplens.org/datasets/)
-* BinomDiv by Vargas *et al.* [(2004)](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)
+* BinomDiv by Vargas *et al.* ([2004](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
