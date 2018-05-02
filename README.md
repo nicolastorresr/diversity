@@ -29,7 +29,7 @@ Evaluate the recommender model given an evaluation scheme. Two approaches for di
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
-Results for each fold
+Results for each fold:
 
     UBCF run fold/sample [model time/prediction time]
 	 1  a-nDCG Measures (top-10): 61.3707 0.860164 0.612487 0.745394 0.4627718 0.112587 0.0521021 [0.006sec/1.432sec] 
@@ -38,7 +38,16 @@ Results for each fold
 	 4  a-nDCG Measures (top-10): 61.5409 0.867490 0.615574 0.738199 0.4582225 0.140796 0.0645163 [0.006sec/1.236sec] 
 	 5  a-nDCG Measures (top-10): 60.8042 0.862061 0.615142 0.748809 0.4646916 0.117348 0.0545309 [0.006sec/1.316sec] 
 
-Overall performance
+| | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv |
+| --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 1      | 61.3707 | 0.8601 | 0.6124 | 0.7453 | 0.4627 | 0.1125 | 0.0521 |
+| 2      | 62.0903 | 0.8657 | 0.6160 | 0.7464 | 0.4636 | 0.1359 | 0.0630 |
+| 3      | 62.0703 | 0.8782 | 0.6142 | 0.7430 | 0.4599 | 0.1379 | 0.0634 |
+| 4      | 61.5409 | 0.8674 | 0.6155 | 0.7381 | 0.4582 | 0.1407 | 0.0645 |
+| 5      | 60.8042 | 0.8620 | 0.6151 | 0.7488 | 0.4646 | 0.1173 | 0.0545 |
+
+
+Overall performance:
 ```R
 > avg(r)
 ```
