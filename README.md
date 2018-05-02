@@ -23,7 +23,7 @@ Create an `evaluationScheme` object from *MovieLense* data set using a 5-fold cr
 ```R
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
-Evaluate the recommender model given an evaluation scheme. Two approaches for diversity are available: `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG. `subtype = "BinomDiv"` for Binomial Diversity by Vargas et al. (2004).
+Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG (Clarke et al.). `subtype = "BinomDiv"` for Binomial Diversity (Vargas et al).
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
@@ -48,4 +48,5 @@ Overall performance
 ### References
 * RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
 * GroupLens [datasets](https://grouplens.org/datasets/)
-* BinomDiv by Vargas *et al.* ([2004](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
+* alpha-nDCG by Clarke *et al.* ([2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf))
+* BinomDiv by Vargas *et al.* ([2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
