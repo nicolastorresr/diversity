@@ -42,15 +42,10 @@ Overall performance
 ```R
 > avg(r)
 ```
-
-| | a_DCG  |  a_NDCG |  ab_NDCG | ag_NDCG | abg_NDCG |  TotDiv | abg_TotDiv |
+| | a_DCG  |  a_nDCG |  ab_nDCG | ag_nDCG | abg_nDCG |  TotDiv | abg_TotDiv |
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| 10      | 61.57531 | 0.8667345 | 0.6146974 | 0.744387 | 0.4618586 | 0.1289305 |  0.0595285 |
+| 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
 
-```
-      a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TotDiv  abg_TotDiv
-10 61.57531 0.8667345 0.6146974 0.744387 0.4618586 0.1289305  0.05952857
-```
 
 ### References
 * RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
