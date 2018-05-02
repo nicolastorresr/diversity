@@ -2,7 +2,7 @@
 
 All the diversity measures were developed in [RecommenderLab](https://cran.r-project.org/web/packages/recommenderlab/index.html), a R package library devoted to recommender systems.
 
-#### The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
+#### The process to evaluate a recommender (e.g., *UBCF*) in a dataset (e.g., *MovieLens-100K*) is shown below:
 
 Load base package and dependences.
 ```R
@@ -15,7 +15,7 @@ source('BinomDiv.R')
 source('evaluate.R')
 ```
 
-Load ML100K dataset.
+Load *ML100K* dataset.
 ```R
 data("MovieLense")
 ```
@@ -23,7 +23,7 @@ Create an `evaluationScheme` object from *MovieLense* data set using a 5-fold cr
 ```R
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
-Evaluate the recommender model given an evaluation scheme. 
+Evaluate the recommender model given an evaluation scheme. Two approaches for diversity are available: `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG. `subtype = "BinomDiv"` for Binomial Diversity by Vargas et al. (2004).
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
