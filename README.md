@@ -42,13 +42,14 @@ Overall performance
 ```R
 > avg(r)
 ```
-```
+
 | Tables        |      Are      |  Cool |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      |    centered   |   $12 |
 | zebra stripes |    are neat   |    $1 |
 
+```
       a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TotDiv  abg_TotDiv
 10 61.57531 0.8667345 0.6146974 0.744387 0.4618586 0.1289305  0.05952857
 ```
