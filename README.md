@@ -57,6 +57,6 @@ Overall performance:
 ### References
 * RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
 * GroupLens [datasets](https://grouplens.org/datasets/)
-* Charles L. A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon. Novelty and Diversity in Information Retrieval Evaluation [pdf](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)
-* Saúl Vargas, Linas Baltrunas, Alexandros Karatzoglou, Pablo Castells. Coverage, Redundancy and Size-Awareness
+* Charles L. A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon. 2008. Novelty and Diversity in Information Retrieval Evaluation [pdf](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)
+* Saúl Vargas, Linas Baltrunas, Alexandros Karatzoglou, Pablo Castells. 2014. Coverage, Redundancy and Size-Awareness
 in Genre Diversity for Recommender Systems [pdf](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)
