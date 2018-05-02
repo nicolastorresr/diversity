@@ -27,6 +27,9 @@ e <- evaluationScheme(  MovieLense, method = 'cross-validation', train = 0.8, k 
 Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: 
 * `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG ([Clarke *et al*. 2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)). 
 * `subtype = "BinomDiv"` for Binomial Diversity ([Vargas *et al*. 2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)).
+
+* alpha-Measures:
+
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
                 subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
@@ -44,7 +47,6 @@ Results for each fold:
 | 4      | 61.5409 | 0.8674 | 0.6155 | 0.7381 | 0.4582 | 0.1407 | 0.0645 |
 | 5      | 60.8042 | 0.8620 | 0.6151 | 0.7488 | 0.4646 | 0.1173 | 0.0545 |
 
-
 Overall performance:
 ```R
 > avg(r)
@@ -52,6 +54,33 @@ Overall performance:
 | | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv |
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
+
+* Binomial Diversity
+
+```R
+> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
+                subtype = "BinomDiv", n = 10, param = list(method = "cosine", nn = 50))
+```
+Results for each fold:
+
+    UBCF run fold/sample [model time/prediction time]
+
+
+| | Coverage  | NonRed | BinomDiv |
+| --      |:--------:|:--------:|:--------:|
+| 1      | 0.8173 | 0.2107 | 0.1774 |
+| 2      | 0.8236 | 0.2305 | 0.1948 |
+| 3      | 0.8258 | 0.2340 | 0.1980 |
+| 4      | 0.8230 | 0.2242 | 0.1888 |
+| 5      | 0.8321 | 0.2310 | 0.1972 |
+
+Overall performance:
+```R
+> avg(r)
+```
+| | Coverage  | NonRed | BinomDiv |
+| --      |:--------:|:--------:|:--------:|
+| 10      | 0.8244 | 0.2260 | 0.1912 |
 
 
 ### References
