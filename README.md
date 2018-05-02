@@ -1,6 +1,6 @@
-# Diversity in Recommender Systems
+# Evaluating Diversity in Recommender Systems
 
-We are using [recommenderlab](https://cran.r-project.org/web/packages/recommenderlab/index.html) for developing our proposed measures and testing it in Recommender Algorithms.
+All the diversity measures were developed in [RecommenderLab](https://cran.r-project.org/web/packages/recommenderlab/index.html), a R package library devoted to recommender systems.
 
 #### The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens 100K) is shown below:
 
