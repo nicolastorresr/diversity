@@ -21,7 +21,8 @@ data("MovieLense")
 ```
 Create an `evaluationScheme` object from `MovieLense` data set using a 5-fold cross-validation.
 ```R
-e <- evaluationScheme(MovieLense, method = 'cross-validation', train = 0.8, k = 5, given = 15, goodRating = 4)
+e <- evaluationScheme(MovieLense, method = 'cross-validation', train = 0.8, k = 5, 
+given = 15, goodRating = 4)
 ```
 Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: 
 * `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG (Clarke *et al*. 2008). 
