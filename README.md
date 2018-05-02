@@ -25,7 +25,7 @@ e <- evaluationScheme(  MovieLense, method = 'cross-validation', train = 0.8, k 
                         given = 15, goodRating = 4)
 ```
 Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: 
-* `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG ([Clarke *et al*. 2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)). 
+* `subtype = "a-nDCG"` for diversity measures based on α-nDCG ([Clarke *et al*. 2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)). 
 * `subtype = "BinomDiv"` for Binomial Diversity ([Vargas *et al*. 2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)).
 
  #### α-nDCG Measures
