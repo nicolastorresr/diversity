@@ -24,8 +24,8 @@ Create an `evaluationScheme` object from *MovieLense* data set using a 5-fold cr
 e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
 ```
 Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: 
-* `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG (Clarke *et al*.). 
-* `subtype = "BinomDiv"` for Binomial Diversity (Vargas *et al*.).
+* `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG (Clarke *et al*. 2008). 
+* `subtype = "BinomDiv"` for Binomial Diversity (Vargas *et al*. 2014).
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
