@@ -46,6 +46,6 @@ Overall performance
 ```
 
 ### References
-* recommenderlab [reference manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf)
-* grouplens [Datasets](https://grouplens.org/datasets/)
+* RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
+* GroupLens [datasets](https://grouplens.org/datasets/)
 * BinomDiv by Vargas *et al.* ([2004](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
