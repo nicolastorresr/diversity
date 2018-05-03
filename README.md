@@ -30,7 +30,7 @@ Evaluate the recommender model given an evaluation scheme. Two approaches for di
 
 ---------------------
  #### α-nDCG Measures
----------------------
+
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
                 subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
@@ -56,8 +56,9 @@ Overall performance:
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
 
- #### Binomial Diversity
 ------------------------
+ #### Binomial Diversity
+
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
                 subtype = "BinomDiv", n = 10, param = list(method = "cosine", nn = 50))
