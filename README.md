@@ -29,7 +29,7 @@ Evaluate the recommender model given an evaluation scheme. Two approaches for di
 * `subtype = "BinomDiv"` for Binomial Diversity ([Vargas *et al*. 2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)).
 
  #### α-nDCG Measures
-
+---------------------
 ```R
 > r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
                 subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
