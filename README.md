@@ -84,7 +84,7 @@ Overall performance:
 | --      |:--------:|:--------:|:--------:|
 | 10      | 0.8244 | 0.2260 | 0.1912 |
 
-
+------------------------
 ### References
 * RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
 * GroupLens [datasets](https://grouplens.org/datasets/)
