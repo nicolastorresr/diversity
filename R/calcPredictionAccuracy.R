@@ -34,10 +34,10 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
 setMethod("calcPredictionAccuracy", signature(x= "topNList",
                                               data = "realRatingMatrix"),
           
-          function(x, data, original=NULL, byUser=FALSE, given=NULL, goodRating=NA, t='topNList', method=NULL, rank=NULL, nMatrix, ...) {
+          function(x, data, original=NULL, byUser=FALSE, given=NULL, goodRating=NA, subtype='topNList', method=NULL, rank=NULL, nMatrix, ...) {
             
             
-            if(t=="a-nDCG"){
+            if(subtype=="a-nDCG"){
               
               cat("a-nDCG Measures (top-",rank,"): ", sep='')
               
@@ -69,7 +69,7 @@ setMethod("calcPredictionAccuracy", signature(x= "topNList",
               
               drop(cbind(a_DCG=l[[1]], a_NDCG = l[[2]], ab_NDCG = l[[3]], ag_NDCG = l[[4]], abg_NDCG = l[[5]], TotDiv = l[[6]], abg_TotDiv = l[[7]]))                            
               
-            } else if(t=="BinomDiv"){
+            } else if(subtype=="BinomDiv"){
               
               cat("Binomial Diversity (top-",rank,"): ",sep='')
               
