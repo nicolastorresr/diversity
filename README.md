@@ -2,7 +2,7 @@
 
 All the diversity measures were developed in [RecommenderLab](https://cran.r-project.org/web/packages/recommenderlab/index.html), a R package library devoted to recommender systems.
 
-#### The process to evaluate a recommender (e.g., *UBCF*) in a dataset (e.g., *MovieLens-100K*) is shown below:
+**The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens-100K) is shown below:**
 
 Load base package and dependences.
 ```R
@@ -15,40 +15,79 @@ source('BinomDiv.R')
 source('evaluate.R')
 ```
 
-Load *ML100K* dataset.
+Load ML100K dataset.
 ```R
-data("MovieLense")
+data('MovieLense')
 ```
-Create an `evaluationScheme` object from *MovieLense* data set using a 5-fold cross-validation.
+Create an `evaluationScheme` object from `MovieLense` data set using a 5-fold cross-validation.
 ```R
-e <- evaluationScheme(MovieLense, method='cross-validation', train=0.8, k=5, given=15, goodRating=4)
+e <- evaluationScheme(  MovieLense, method = "cross-validation", train = 0.8, k = 5, 
+                        given = 15, goodRating = 4)
 ```
 Evaluate the recommender model given an evaluation scheme. Two approaches for diversity analysis are available: 
-* `subtype = "a-nDCG"` for diversity measures based on alpha-nDCG (Clarke *et al*. 2008). 
-* `subtype = "BinomDiv"` for Binomial Diversity (Vargas *et al*. 2014).
+* `subtype = "a-nDCG"` for diversity measures based on α-nDCG ([Clarke *et al*. 2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)). 
+* `subtype = "BinomDiv"` for Binomial Diversity ([Vargas *et al*. 2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)).
+
+---------------------
+ #### α-nDCG Measures
+
 ```R
-> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
+> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
+                subtype = "a-nDCG", n = 10, param = list(method = "cosine", nn = 50))
 ```
-Results for each fold
+Results for each fold:
 
     UBCF run fold/sample [model time/prediction time]
-	 1  a-nDCG Measures (top-10): 61.3707 0.860164 0.612487 0.745394 0.4627718 0.112587 0.0521021 [0.006sec/1.432sec] 
-	 2  a-nDCG Measures (top-10): 62.0903 0.865740 0.616011 0.746436 0.4636326 0.135980 0.0630448 [0.006sec/1.402sec] 
-	 3  a-nDCG Measures (top-10): 62.0703 0.878215 0.614272 0.743095 0.4599745 0.137939 0.0634486 [0.007sec/1.239sec] 
-	 4  a-nDCG Measures (top-10): 61.5409 0.867490 0.615574 0.738199 0.4582225 0.140796 0.0645163 [0.006sec/1.236sec] 
-	 5  a-nDCG Measures (top-10): 60.8042 0.862061 0.615142 0.748809 0.4646916 0.117348 0.0545309 [0.006sec/1.316sec] 
 
-Overall performance
+
+| | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv | [mt/tt] |
+| --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--:|
+| 1      | 61.3707 | 0.8601 | 0.6124 | 0.7453 | 0.4627 | 0.1125 | 0.0521 | |
+| 2      | 62.0903 | 0.8657 | 0.6160 | 0.7464 | 0.4636 | 0.1359 | 0.0630 | |
+| 3      | 62.0703 | 0.8782 | 0.6142 | 0.7430 | 0.4599 | 0.1379 | 0.0634 | |
+| 4      | 61.5409 | 0.8674 | 0.6155 | 0.7381 | 0.4582 | 0.1407 | 0.0645 | |
+| 5      | 60.8042 | 0.8620 | 0.6151 | 0.7488 | 0.4646 | 0.1173 | 0.0545 | |
+
+Overall performance:
 ```R
 > avg(r)
 ```
-```
-      a_DCG    a_NDCG   ab_NDCG  ag_NDCG  abg_NDCG   TotDiv  abg_TotDiv
-10 61.57531 0.8667345 0.6146974 0.744387 0.4618586 0.1289305  0.05952857
-```
+| | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv |
+| --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
 
+------------------------
+ #### Binomial Diversity
+
+```R
+> r <- evaluate(e, method = "UBCF", nMatrix = "../nuggets/Nuggets_ML100K.dat", type = "topNList", 
+                subtype = "BinomDiv", n = 10, param = list(method = "cosine", nn = 50))
+```
+Results for each fold:
+
+    UBCF run fold/sample [model time/prediction time]
+
+
+| | Coverage  | NonRed | BinomDiv | [mt/tt] |
+| --      |:--------:|:--------:|:--------:|:--:|
+| 1      | 0.8173 | 0.2107 | 0.1774 | |
+| 2      | 0.8236 | 0.2305 | 0.1948 | |
+| 3      | 0.8258 | 0.2340 | 0.1980 | |
+| 4      | 0.8230 | 0.2242 | 0.1888 | |
+| 5      | 0.8321 | 0.2310 | 0.1972 | |
+
+Overall performance:
+```R
+> avg(r)
+```
+| | Coverage  | NonRed | BinomDiv |
+| --      |:--------:|:--------:|:--------:|
+| 10      | 0.8244 | 0.2260 | 0.1912 |
+
+------------------------
 ### References
 * RecommenderLab ([Reference Manual](https://cran.r-project.org/web/packages/recommenderlab/recommenderlab.pdf))
 * GroupLens [datasets](https://grouplens.org/datasets/)
-* alpha-nDCG by Clarke *et al.* ([2008](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf))
-* BinomDiv by Vargas *et al.* ([2014](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf))
+* Charles L. A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon. 2008. Novelty and Diversity in Information Retrieval Evaluation [pdf](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)
+* Saúl Vargas, Linas Baltrunas, Alexandros Karatzoglou, Pablo Castells. 2014. Coverage, Redundancy and Size-Awareness
+in Genre Diversity for Recommender Systems [pdf](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)
