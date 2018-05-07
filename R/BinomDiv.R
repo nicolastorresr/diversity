@@ -1,4 +1,3 @@
-
 Bernoulli <- function(N,k,p) {
   return(choose(N,k)*p^k*(1-p)^(N-k))
 }
@@ -62,8 +61,7 @@ BinomDiv <- function(nuggets,R) {
     bin[user] <- signif(Coverage*NonRed,4)
   }
   
-  res <- list(mean(cov),mean(non),mean(bin))
+  res <- lapply(list(mean(cov),mean(non),mean(bin)),round,4)
   names(res) <- c('Coverage','NonRed','BinomDiv')
-  #cat(res)
   return(res)
 }
