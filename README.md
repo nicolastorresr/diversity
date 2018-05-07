@@ -40,7 +40,7 @@ Results for each fold:
     UBCF run fold/sample [model time/prediction time]
 
 
-| | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv | [mt/tt] |
+| | α-DCG  |  α-nDCG |  αβ-nDCG | αγ-nDCG | αβγ-nDCG |  TotDiv | αβγ-TotDiv | [mt/tt] |
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--:|
 | 1      | 61.3707 | 0.8601 | 0.6124 | 0.7453 | 0.4627 | 0.1125 | 0.0521 | [0.006sec/1.22sec] |
 | 2      | 62.0903 | 0.8657 | 0.6160 | 0.7464 | 0.4636 | 0.1359 | 0.0630 | [0.006sec/1.16sec] |
@@ -52,7 +52,7 @@ Overall performance:
 ```R
 > avg(r)
 ```
-| | a-DCG  |  a-nDCG |  ab-nDCG | ag-nDCG | abg-nDCG |  TotDiv | abg-TotDiv |
+| | α-DCG  |  α-nDCG |  αβ-nDCG | αγ-nDCG | αβγ-nDCG |  TotDiv | αβγ-TotDiv |
 | --      |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
 | 10      | 61.5753 | 0.8667 | 0.6146 | 0.7443 | 0.4618 | 0.1289 |  0.0595 |
 
