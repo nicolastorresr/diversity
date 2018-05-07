@@ -1,13 +1,13 @@
 alpha_Measures <- function(nuggets, R, reviews, verbose = TRUE, alpha = 0.5, beta = 2, gama = 2){
   
-  ### Params
-  ### nuggets: binary data.frame of content descriptors for each item
-  ### R: matrix with top N recommended items for each user
-  ### reviews: matrix with all visited items for each user
-  ### verbose: if true, print the process out
-  ### alpha: parameter of evaluation
-  ### beta: parameter of evaluation
-  ### gama: parameter of evaluation
+  # Arguments
+  ### nuggets   a binary dataframe of content descriptors for each item.
+  ### R         a matrix with top N recommended items for each user.
+  ### reviews   a matrix with all reviewed/purchased/visited items for each user.
+  ### verbose   show progress.
+  ### alpha     penalization rate.
+  ### beta      penalization rate.
+  ### gama      penalization rate.
   
   N <- ncol(R)
   
