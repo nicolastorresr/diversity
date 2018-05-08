@@ -20,20 +20,20 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
 setMethod("calcPredictionAccuracy", signature(x= "topNList",
                                               data = "realRatingMatrix"),
           
-          function(x, data, original=NULL, byUser=FALSE, given=NULL, goodRating=NA, subtype="topNList", method=NULL, rank=NULL, nMatrix, ...) {
+          function(x, data, rawData=NULL, byUser=FALSE, given=NULL, goodRating=NA, subtype="topNList", method=NULL, rank=NULL, nMatrix, ...) {
             
             if(subtype=="a-nDCG"){
               
               cat("a-nDCG Measures (top-",rank,"): ", sep='')
               
-              real_mat <- as(original, "matrix")
+              realMatrix <- as(rawData, "matrix")
               
               R = matrix(NA,nrow = length(x@items),ncol = rank)
               
               for (i in 1:length(x@items)) {
                 
                 if (length(x@items[[i]])==rank)
-                  R[i,] = colnames(real_mat)[x@items[[i]]]
+                  R[i,] = colnames(realMatrix)[x@items[[i]]]
                 else
                   R[i,] = sample(NA, rank, replace=TRUE)
                 
@@ -41,8 +41,8 @@ setMethod("calcPredictionAccuracy", signature(x= "topNList",
               
               reviews <- list()
               
-              for (pe in 1:nrow(real_mat)){
-                reviews[[pe]] <- names(which(!is.na(real_mat[pe,])))
+              for (pe in 1:nrow(realMatrix)){
+                reviews[[pe]] <- names(which(!is.na(realMatrix[pe,])))
               }
               
               if (!file.exists(nMatrix)) stop("File nuggets does not exist.")
@@ -58,14 +58,14 @@ setMethod("calcPredictionAccuracy", signature(x= "topNList",
               
               cat("Binomial Diversity (top-",rank,"): ",sep='')
               
-              real_mat <- as(original, "matrix")
+              realMatrix <- as(rawData, "matrix")
               
               R = matrix(NA,nrow = length(x@items),ncol = rank)
               
               for (i in 1:length(x@items)) {
                 
                 if (length(x@items[[i]])==rank)
-                  R[i,] = colnames(real_mat)[x@items[[i]]]
+                  R[i,] = colnames(realMatrix)[x@items[[i]]]
                 else
                   R[i,] = sample(NA, rank, replace=TRUE)
                 
