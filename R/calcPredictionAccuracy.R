@@ -20,8 +20,7 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
 setMethod("calcPredictionAccuracy", signature(x= "topNList",
                                               data = "realRatingMatrix"),
           
-          function(x, data, original=NULL, byUser=FALSE, given=NULL, goodRating=NA, subtype='topNList', method=NULL, rank=NULL, nMatrix, ...) {
-            
+          function(x, data, original=NULL, byUser=FALSE, given=NULL, goodRating=NA, subtype="topNList", method=NULL, rank=NULL, nMatrix, ...) {
             
             if(subtype=="a-nDCG"){
               
@@ -81,7 +80,7 @@ setMethod("calcPredictionAccuracy", signature(x= "topNList",
               
               drop(cbind(Coverage=l[[1]], NonRed = l[[2]], BinomDiv = l[[3]]))                            
               
-            } else{
+            } else {
               
               if(is.na(goodRating)) stop("You need to specify goodRating!")
               

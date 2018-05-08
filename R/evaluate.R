@@ -72,13 +72,10 @@ setMethod("evaluate", signature(x = "evaluationScheme", method = "list"),
       ## get best N
       topN <- bestN(pre, NN)
       
-      if(subtype=="a-nDCG" | subtype=="BinomDiv"){
-        r <-  calcPredictionAccuracy(topN, test_unknown, test_known, byUser=FALSE,
-                                     given=scheme@given, goodRating=scheme@goodRating, subtype=subtype, method=method,rank=NN,nMatrix=nMatrix)
-      } else {
-        r <-  calcPredictionAccuracy(topN, test_unknown, byUser=FALSE, subtype=subtype,
-                                     given=scheme@given, goodRating=scheme@goodRating)
-      }
+      r <- calcPredictionAccuracy(
+        topN, test_unknown, test_known, byUser=FALSE, given=scheme@given, goodRating=scheme@goodRating, 
+        subtype=subtype, method=method, rank=NN, nMatrix=nMatrix
+      )
       
       if(i==1) res <- rbind(r)
       else res <- rbind(res, r)
