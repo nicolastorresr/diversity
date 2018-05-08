@@ -2,32 +2,18 @@ setMethod("calcPredictionAccuracy", signature(x= "realRatingMatrix",
                                               data = "realRatingMatrix"),
           
           function(x, data, rank=FALSE, byUser=FALSE, ...) {
+              
+            if(byUser) fun <- rowMeans
+            else fun <- mean
             
-            if(rank){
-              
-              resNDCG <- NDCG(x,data,rank)
-              
-              cat("nDCG:",resNDCG,"")
-              
-              drop(cbind(resNDCG))
-              
-            } else {
-              
-              if(byUser) fun <- rowMeans
-              else fun <- mean
-              
-              ## we use matrix to make sure NAs are accounted for correctly
-              MAE <- fun(abs(as(x, "matrix") - as(data,"matrix")),
-                         na.rm=TRUE)
-              MSE <- fun((as(x, "matrix") - as(data,"matrix"))^2,
-                         na.rm=TRUE)
-              RMSE <- sqrt(MSE)
-              
-              drop(cbind(RMSE, MSE, MAE))
-              
-            }
+            ## we use matrix to make sure NAs are accounted for correctly
+            MAE <- fun(abs(as(x, "matrix") - as(data,"matrix")),
+                       na.rm=TRUE)
+            MSE <- fun((as(x, "matrix") - as(data,"matrix"))^2,
+                       na.rm=TRUE)
+            RMSE <- sqrt(MSE)
             
-            
+            drop(cbind(RMSE, MSE, MAE))
             
           })
 
