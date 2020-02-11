@@ -94,3 +94,4 @@ Overall performance:
 * Charles L. A. Clarke, Maheedhar Kolla, Gordon V. Cormack, Olga Vechtomova, Azin Ashkan, Stefan Büttcher, Ian MacKinnon. 2008. Novelty and Diversity in Information Retrieval Evaluation [pdf](https://plg.uwaterloo.ca/~gvcormac/novelty.pdf)
 * Saúl Vargas, Linas Baltrunas, Alexandros Karatzoglou, Pablo Castells. 2014. Coverage, Redundancy and Size-Awareness
 in Genre Diversity for Recommender Systems [pdf](http://ir.ii.uam.es/saul/pubs/recsys2014-vargas-tid.pdf)
+* Marcelo Mendoza & Nicolas Torres. Evaluating content novelty in recommender systems Journal of Intelligent Information Systems.
