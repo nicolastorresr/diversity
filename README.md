@@ -1,5 +1,8 @@
 # Evaluating Diversity Measures in Recommender Systems
 
+We proposed a method to create high level content descriptors (known as information nuggets) using social tags, providing datasets with annotations to evaluate content diversity in recommender systems. (See [N.Torres 2018 37th International Conference of the Chilean Computer Science Society (SCCC)](https://ieeexplore.ieee.org/document/8705247)).
+We release the datasets and their annotations, encouraging the use of these datasets in future studies on diversity analysis.
+
 All the diversity measures were developed in [RecommenderLab](https://cran.r-project.org/web/packages/recommenderlab/index.html), a R package library devoted to recommender systems.
 
 **The process to evaluate a recommender (e.g., UBCF) in a dataset (e.g., MovieLens-100K) is shown below:**
